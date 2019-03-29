@@ -1,0 +1,1226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{871721C2-AA8D-47B9-8BF3-4AFEA5AE3ED1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExpenseManager</RootNamespace>
+    <AssemblyName>ExpenseManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1005, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TOOLS\DLLs\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin, Version=4.97.4951.28478, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TOOLS\DLLs\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TOOLS\DLLs\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="kPortal.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\kPortal.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="kPortal.CoreUtilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\kPortal.CoreUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartWebEngines">
+      <HintPath>dll\SmartWebEngines.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="XPLUG.WEBTOOLS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\XPLUG.WEBTOOLS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\ajaxCalender.css" />
+    <Content Include="App_Themes\Default\ControlStyles.css" />
+    <Content Include="App_Themes\Default\Images\defaultImage.jpg" />
+    <Content Include="App_Themes\Default\framework.css" />
+    <Content Include="App_Themes\Default\Images\arrow.png" />
+    <Content Include="Images\back.png" />
+    <Content Include="App_Themes\Default\Images\bg.png" />
+    <Content Include="App_Themes\Default\Images\black_edit_btn.png" />
+    <Content Include="App_Themes\Default\Images\body_back-full.png" />
+    <Content Include="App_Themes\Default\Images\border.png" />
+    <Content Include="App_Themes\Default\Images\border_bottom_2.png" />
+    <Content Include="App_Themes\Default\Images\btn_delete_new.gif" />
+    <Content Include="App_Themes\Default\Images\btn_edit_new.gif" />
+    <Content Include="App_Themes\Default\Images\bubble.png" />
+    <Content Include="App_Themes\Default\Images\custom\body_back-repeat.png" />
+    <Content Include="App_Themes\Default\Images\custom\button.png" />
+    <Content Include="App_Themes\Default\Images\custom\header_left-corner.png" />
+    <Content Include="App_Themes\Default\Images\custom\header_right-corner.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon-blog_comment.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon-meta_rss.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon-meta_search.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon-meta_sitemap.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon-slice.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon_arrow-back.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon_arrow-fwd.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon_arrow-list.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon_arrow.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon_search.png" />
+    <Content Include="App_Themes\Default\Images\custom\icon_tags.png" />
+    <Content Include="App_Themes\Default\Images\custom\menue_back-repeat.png" />
+    <Content Include="App_Themes\Default\Images\docs.png" />
+    <Content Include="App_Themes\Default\Images\edit-notes.png" />
+    <Content Include="App_Themes\Default\Images\element_bottom.png" />
+    <Content Include="App_Themes\Default\Images\element_top.png" />
+    <Content Include="App_Themes\Default\Images\fieldsetBG.png" />
+    <Content Include="App_Themes\Default\Images\fieldsetLegend.png" />
+    <Content Include="App_Themes\Default\Images\fieldsetLegend2.png" />
+    <Content Include="App_Themes\Default\Images\footer.png" />
+    <Content Include="App_Themes\Default\Images\formfield_back.png" />
+    <Content Include="App_Themes\Default\Images\grad-l1-trans.png" />
+    <Content Include="App_Themes\Default\Images\header_back-metanav.png" />
+    <Content Include="App_Themes\Default\Images\help-bg.png" />
+    <Content Include="App_Themes\Default\Images\helpPointer.png" />
+    <Content Include="App_Themes\Default\Images\infoBox-bg.png" />
+    <Content Include="App_Themes\Default\Images\Info\fieldsetBG.png" />
+    <Content Include="App_Themes\Default\Images\Info\fieldsetLegend.png" />
+    <Content Include="App_Themes\Default\Images\Info\fieldsetLegend2.png" />
+    <Content Include="App_Themes\Default\Images\Info\grad-l1-trans.png" />
+    <Content Include="App_Themes\Default\Images\Info\help-bg.png" />
+    <Content Include="App_Themes\Default\Images\Info\helpPointer.png" />
+    <Content Include="App_Themes\Default\Images\Info\infoBox-bg.png" />
+    <Content Include="App_Themes\Default\Images\Info\inputSend.png" />
+    <Content Include="App_Themes\Default\Images\inputSend.png" />
+    <Content Include="App_Themes\Default\Images\loginuser.png" />
+    <Content Include="App_Themes\Default\Images\expenseManager.png" />
+    <Content Include="App_Themes\Default\Images\logo.png" />
+    <Content Include="App_Themes\Default\Images\logo2.png" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\add2.png" />
+    <Content Include="Images\checkmark5.png" />
+    <Content Include="Images\Lr.png" />
+    <Content Include="App_Themes\Default\Images\Nav\loader.gif" />
+    <Content Include="App_Themes\Default\Images\Nav\appButton.png" />
+    <Content Include="App_Themes\Default\Images\Nav\appButton2.png" />
+    <Content Include="App_Themes\Default\Images\Nav\button2.png" />
+    <Content Include="App_Themes\Default\Images\Nav\button2x.png" />
+    <Content Include="App_Themes\Default\Images\Nav\button3.png" />
+    <Content Include="App_Themes\Default\Images\Nav\button4.png" />
+    <Content Include="App_Themes\Default\Images\Nav\NavBg.png" />
+    <Content Include="App_Themes\Default\Images\Nav\NavBgAlt.png" />
+    <Content Include="App_Themes\Default\Images\Nav\NeutralButton.gif" />
+    <Content Include="App_Themes\Default\Images\Nav\PlainBG.png" />
+    <Content Include="App_Themes\Default\Images\Nav\PlainBG2.png" />
+    <Content Include="App_Themes\Default\Images\Nav\PlainBG3.png" />
+    <Content Include="App_Themes\Default\Images\Nav\side1.png" />
+    <Content Include="App_Themes\Default\Images\Nav\sort_asc.gif" />
+    <Content Include="App_Themes\Default\Images\Nav\sort_desc.gif" />
+    <Content Include="App_Themes\Default\Images\Nav\sort_neutral.gif" />
+    <Content Include="App_Themes\Default\Images\Nav\subMenu.png" />
+    <Content Include="App_Themes\Default\Images\password.png" />
+    <Content Include="App_Themes\Default\Images\reset_icon.gif" />
+    <Content Include="App_Themes\Default\Images\toolbar_get_info.png" />
+    <Content Include="App_Themes\Default\Images\top.png" />
+    <Content Include="App_Themes\Default\Images\voucherLogo.gif" />
+    <Content Include="App_Themes\Default\Images\xPlug.gif" />
+    <Content Include="App_Themes\Default\Images\xPlugCaligraphy.gif" />
+    <Content Include="App_Themes\Default\jLogin.css" />
+    <Content Include="App_Themes\Default\jquery-ui-timepicker-addon.css" />
+    <Content Include="App_Themes\Default\MainStyle.css" />
+    <Content Include="App_Themes\Default\portal.css" />
+    <Content Include="App_Themes\Default\SMSProStyle.css" />
+    <Content Include="App_Themes\Default\style.css" />
+    <Content Include="App_Themes\Default\tab.css" />
+    <Content Include="App_Themes\Default\login.css" />
+    <Content Include="App_Themes\Default\ui.dropdownchecklist.standalone.css" />
+    <Content Include="App_Themes\Default\ui.dropdownchecklist.themeroller.css" />
+    <Content Include="App_Themes\Default\xPlug_reset.css" />
+    <Content Include="AssetManagement\frmManageCategoriesOfAssets.ascx" />
+    <Content Include="AssetManagement\frmManageCompanyAssets.ascx" />
+    <Content Include="AssetManagement\frmManageTypesOfAssets.ascx" />
+    <Content Include="CoreFramework\AlertControl\AlertBoxStyle.css" />
+    <Content Include="CoreFramework\AlertControl\Assets\body_tab_top.jpg" />
+    <Content Include="CoreFramework\AlertControl\Assets\body_tab_top2.jpg" />
+    <Content Include="CoreFramework\AlertControl\Assets\button_bg.jpg" />
+    <Content Include="CoreFramework\AlertControl\Assets\button_bg.png" />
+    <Content Include="CoreFramework\AlertControl\Assets\button_bg2.jpg" />
+    <Content Include="CoreFramework\AlertControl\Assets\confirm.png" />
+    <Content Include="CoreFramework\AlertControl\Assets\Delete.png" />
+    <Content Include="CoreFramework\AlertControl\Assets\Exit.png" />
+    <Content Include="CoreFramework\AlertControl\Assets\Info.png" />
+    <Content Include="CoreFramework\AlertControl\Assets\success.png" />
+    <Content Include="CoreFramework\AlertControl\Assets\Warning.png" />
+    <Content Include="CoreFramework\AlertControl\ConfirmAlertBox.ascx" />
+    <Content Include="CoreFramework\ErrorControl\ErrorDisplay.ascx" />
+    <Content Include="CoreFramework\ErrorControl\ModuleAccessDenied.ascx" />
+    <Content Include="CoreFramework\GridPager\Assets\ffw.png" />
+    <Content Include="CoreFramework\GridPager\Assets\goBtn.png" />
+    <Content Include="CoreFramework\GridPager\Assets\next.png" />
+    <Content Include="CoreFramework\GridPager\Assets\pagerStyle.css" />
+    <Content Include="CoreFramework\GridPager\Assets\prev.png" />
+    <Content Include="CoreFramework\GridPager\Assets\rrw.png" />
+    <Content Include="CoreFramework\GridPager\Assets\spacer.png" />
+    <Content Include="CoreFramework\GridPager\GridPager.ascx" />
+    <Content Include="CoreFramework\Home\ChangeMyPassword.ascx" />
+    <Content Include="CoreFramework\Home\MyUserProfile.ascx" />
+    <Content Include="CoreFramework\ModalEngine\xModalPopup.ascx" />
+    <Content Include="CoreFramework\PortalAdmin\SiteMapMgt.ascx" />
+    <Content Include="CoreFramework\PortalAdmin\UserRoleMgt.ascx" />
+    <Content Include="CoreFramework\SiteAdmin\ManageUser.ascx" />
+    <Content Include="CoreFramework\SiteAdmin\ResetLockedUser.ascx" />
+    <Content Include="CoreFramework\SiteAdmin\UserProfile.ascx" />
+    <Content Include="CoreFramework\SiteError.aspx" />
+    <Content Include="CoreFramework\Welcome.aspx" />
+    <Content Include="DelegateUser\ApprovalDelegates.xml" />
+    <Content Include="dll\AjaxControlToolkit.dll" />
+    <Content Include="dll\AjaxMin.dll" />
+    <Content Include="dll\HtmlAgilityPack.dll" />
+    <Content Include="dll\kPortal.Common.dll" />
+    <Content Include="dll\kPortal.CoreUtilities.dll" />
+    <Content Include="dll\MySql.Data.dll" />
+    <Content Include="dll\MySql.Data.Entity.dll" />
+    <Content Include="dll\MySql.Web.dll" />
+    <Content Include="dll\SmartWebEngines.dll" />
+    <Content Include="dll\XPLUG.WEBTOOLS.dll" />
+    <Content Include="ExpenseMgt\DropDownCheckBox\xDropDownCheckBox.ascx" />
+    <Content Include="ExpenseMgt\FrmAmendRejectedTransaction.ascx" />
+    <Content Include="ExpenseMgt\frmApproveExpenseTransaction.ascx" />
+    <Content Include="ExpenseMgt\FrmBeneficiaryType.ascx" />
+    <Content Include="ExpenseMgt\frmCompleteExpensePayment.ascx" />
+    <Content Include="ExpenseMgt\FrmManageApprover.ascx" />
+    <Content Include="ExpenseMgt\frmManageBeneficiary.ascx" />
+    <Content Include="ExpenseMgt\frmManageDepartments.ascx" />
+    <Content Include="ExpenseMgt\frmManageExpensePayment.ascx" />
+    <Content Include="ExpenseMgt\FrmManageUnit.ascx" />
+    <Content Include="ExpenseMgt\FrmViewTransaction.ascx" />
+    <Content Include="ExpenseMgt\FrmVoidTransaction.ascx" />
+    <Content Include="ExpenseMgt\Reports\FrmAccountsHeadReport.ascx" />
+    <Content Include="ExpenseMgt\Reports\frmTransactionItemsReport.ascx" />
+    <Content Include="ExpenseMgt\Reports\frmTransactionPaymentsReport.ascx" />
+    <Content Include="ExpenseMgt\Reports\frmTransactionReport.ascx" />
+    <Content Include="ExpenseMgt\Reports\FrmItemsReport.ascx" />
+    <Content Include="ExpenseMgt\Voucher\FrmMulttipleVoucher.ascx" />
+    <Content Include="ExpenseMgt\Voucher\FrmSingleVoucher.ascx" />
+    <Content Include="ExpenseMgt\Voucher\MultiVoucherManager.aspx" />
+    <Content Include="ExpenseMgt\Voucher\VoucherManager.aspx" />
+    <Content Include="Images\about.png" />
+    <Content Include="Images\add-beach.png" />
+    <Content Include="Images\AlertIcons\body_tab_top.jpg" />
+    <Content Include="Images\AlertIcons\body_tab_top2.jpg" />
+    <Content Include="Images\AlertIcons\button_bg.jpg" />
+    <Content Include="Images\AlertIcons\button_bg.png" />
+    <Content Include="Images\AlertIcons\button_bg2.jpg" />
+    <Content Include="Images\AlertIcons\button_bg2.png" />
+    <Content Include="Images\AlertIcons\confirm.png" />
+    <Content Include="Images\AlertIcons\Delete.png" />
+    <Content Include="Images\AlertIcons\Exit.png" />
+    <Content Include="Images\AlertIcons\Info.png" />
+    <Content Include="Images\AlertIcons\success.png" />
+    <Content Include="Images\AlertIcons\Warning.png" />
+    <Content Include="Images\arrow.png" />
+    <Content Include="Images\arrows.png" />
+    <Content Include="Images\bullets.png" />
+    <Content Include="Images\coll.png" />
+    <Content Include="Images\comp.jpg" />
+    <Content Include="Images\contact.png" />
+    <Content Include="Images\DropDown.PNG" />
+    <Content Include="Images\minus.png" />
+    <Content Include="Images\minus2.png" />
+    <Content Include="Images\Report\footer-logo.png" />
+    <Content Include="Images\Report\lr.jpg" />
+    <Content Include="Images\Report\voucherLogo.gif" />
+    <Content Include="Images\Report\xPlug.gif" />
+    <Content Include="Images\Report\xPlugCaligraphy.gif" />
+    <Content Include="Images\Report\xPlugIcon.png" />
+    <Content Include="Images\TabIcons\accounthead.png" />
+    <Content Include="Images\TabIcons\approve-voidtransaction.png" />
+    <Content Include="Images\TabIcons\approver.png" />
+    <Content Include="Images\TabIcons\approvetransaction.png" />
+    <Content Include="Images\TabIcons\assetscategories.png" />
+    <Content Include="Images\TabIcons\assetstypes.png" />
+    <Content Include="Images\TabIcons\beneficiary.png" />
+    <Content Include="Images\TabIcons\department.png" />
+    <Content Include="Images\TabIcons\expense.png" />
+    <Content Include="Images\TabIcons\expenseitem.png" />
+    <Content Include="Images\TabIcons\expensetypes.png" />
+    <Content Include="Images\TabIcons\externalbeneficiary.png" />
+    <Content Include="Images\TabIcons\initiatetransaction.png" />
+    <Content Include="Images\TabIcons\manageassets.png" />
+    <Content Include="Images\TabIcons\passwordchange.png" />
+    <Content Include="Images\TabIcons\paymentreport.png" />
+    <Content Include="Images\TabIcons\payments.png" />
+    <Content Include="Images\TabIcons\pending-rejectedtransaction.png" />
+    <Content Include="Images\TabIcons\portalroles.png" />
+    <Content Include="Images\TabIcons\portaltab.png" />
+    <Content Include="Images\TabIcons\portalusers.png" />
+    <Content Include="Images\TabIcons\profile.png" />
+    <Content Include="Images\TabIcons\resetusers.png" />
+    <Content Include="Images\TabIcons\units.png" />
+    <Content Include="Images\TabIcons\updatepayment.png" />
+    <Content Include="Images\TabIcons\users.png" />
+    <Content Include="Images\TabIcons\voidapprove.png" />
+    <Content Include="Images\TabIcons\voucher.png" />
+    <Content Include="LogReport\AppError\Logfile.txt" />
+    <Content Include="Quicklinks\AssetsManagement.ascx" />
+    <Content Include="Quicklinks\BeneficiaryManagement.ascx" />
+    <Content Include="Quicklinks\Departments.ascx" />
+    <Content Include="Quicklinks\ExpenseManagement.ascx" />
+    <Content Include="Quicklinks\ExpenseTransaction.ascx" />
+    <Content Include="Quicklinks\Home.ascx" />
+    <Content Include="Quicklinks\InitiateTransactions.ascx" />
+    <Content Include="Quicklinks\PortalAdmin.ascx" />
+    <Content Include="Quicklinks\SiteAdmin.ascx" />
+    <Content Include="Quicklinks\SiteAdministration.ascx" />
+    <Content Include="Quicklinks\TransactionApproval.ascx" />
+    <Content Include="Quicklinks\TransactionPayments.ascx" />
+    <Content Include="Quicklinks\TransactionReports.ascx" />
+    <Content Include="Quicklinks\UpdatePayments.ascx" />
+    <Content Include="Quicklinks\ViewTransactions.ascx" />
+    <Content Include="Scripts\accounting.js" />
+    <Content Include="Scripts\additional-methods.min.js" />
+    <Content Include="Scripts\bootstrap.css" />
+    <Content Include="Scripts\jquery-2.0.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\jquery-2.1.0-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.1.0.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.13.custom.min.js" />
+    <Content Include="Scripts\jquery.formatCurrency-1.4.0.min.js" />
+    <Content Include="Scripts\jquery.popupoverlay.js" />
+    <Content Include="Scripts\jquery.signalR-2.0.0-rc1.js" />
+    <Content Include="Scripts\jquery.signalR-2.0.0-rc1.min.js" />
+    <Content Include="Scripts\multivoucher.js" />
+    <Content Include="Scripts\xpenseManagerDateValidator.js" />
+    <Content Include="Scripts\xpenseManagerNumberToWord.js" />
+    <Content Include="Scripts\xpenseManager.js" />
+    <Content Include="XpenseManager.aspx" />
+    <Content Include="Content\themes\base\images\animated-overlay.gif" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.menu.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.spinner.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\jquery.ui.tooltip.css" />
+    <Content Include="Content\themes\base\minified\images\animated-overlay.gif" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.menu.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.spinner.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
+    <Content Include="expenseManagerStructuredServices.asmx" />
+    <Content Include="ExpenseMgt\frmManageCategoriesOfExpenses.ascx" />
+    <Content Include="ExpenseMgt\frmManageHeadsOfAccounts.ascx" />
+    <Content Include="ExpenseMgt\frmManageExpenseItems.ascx" />
+    <Content Include="ExpenseMgt\frmManageTransactions.ascx" />
+    <Content Include="ExpenseMgt\frmManageTypesOfExpenses.ascx" />
+    <Content Include="Images\arrowdown.png" />
+    <Content Include="Images\glyphicons-halflings-white.png" />
+    <Content Include="Images\glyphicons-halflings.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\13.gif" />
+    <Content Include="Images\default.gif" />
+    <Content Include="Login.aspx" />
+    <Content Include="Images\Framework\but1.png" />
+    <Content Include="Images\Icons\apply.gif" />
+    <Content Include="Images\Icons\apply_o.gif" />
+    <Content Include="Images\Icons\approve.gif" />
+    <Content Include="Images\Icons\approve_o.gif" />
+    <Content Include="Images\Icons\assign.gif" />
+    <Content Include="Images\Icons\assign_o.gif" />
+    <Content Include="Images\Icons\btn_add.gif" />
+    <Content Include="Images\Icons\btn_add_02.gif" />
+    <Content Include="Images\Icons\btn_back.gif" />
+    <Content Include="Images\Icons\btn_back_02.gif" />
+    <Content Include="Images\Icons\btn_clear.gif" />
+    <Content Include="Images\Icons\btn_clear_02.gif" />
+    <Content Include="Images\Icons\btn_delete.gif" />
+    <Content Include="Images\Icons\btn_delete_02.gif" />
+    <Content Include="Images\Icons\btn_edit.gif" />
+    <Content Include="Images\Icons\btn_edit_02.gif" />
+    <Content Include="Images\Icons\btn_reload.gif" />
+    <Content Include="Images\Icons\btn_reload_02.gif" />
+    <Content Include="Images\Icons\btn_save.gif" />
+    <Content Include="Images\Icons\btn_save_02.gif" />
+    <Content Include="Images\Icons\btn_search.gif" />
+    <Content Include="Images\Icons\btn_search_02.gif" />
+    <Content Include="Images\Icons\close4.gif" />
+    <Content Include="Images\Icons\close5.gif" />
+    <Content Include="Images\Icons\Continue.jpg" />
+    <Content Include="Images\Icons\details.gif" />
+    <Content Include="Images\Icons\details_o.gif" />
+    <Content Include="Images\Icons\export.jpg" />
+    <Content Include="Images\Icons\export_o.jpg" />
+    <Content Include="Images\Icons\generate.jpg" />
+    <Content Include="Images\Icons\hide.gif" />
+    <Content Include="Images\Icons\hide_o.gif" />
+    <Content Include="Images\Icons\insert.gif" />
+    <Content Include="Images\Icons\insertTime.gif" />
+    <Content Include="Images\Icons\insertTime_o.gif" />
+    <Content Include="Images\Icons\insert_o.gif" />
+    <Content Include="Images\Icons\Invalidbtn.png" />
+    <Content Include="Images\Icons\Process.jpg" />
+    <Content Include="Images\Icons\reject.gif" />
+    <Content Include="Images\Icons\reject_o.gif" />
+    <Content Include="Images\Icons\reset.gif" />
+    <Content Include="Images\Icons\reset_o.gif" />
+    <Content Include="Images\Icons\submit.gif" />
+    <Content Include="Images\Icons\submit_o.gif" />
+    <Content Include="Images\Icons\template.png" />
+    <Content Include="Images\Icons\update.gif" />
+    <Content Include="Images\Icons\update_o.gif" />
+    <Content Include="Images\Icons\validbtn.png" />
+    <Content Include="Images\Icons\view.gif" />
+    <Content Include="Images\Icons\view_o.gif" />
+    <Content Include="Images\MessageIcons\action_delete.gif" />
+    <Content Include="Images\MessageIcons\action_refresh.gif" />
+    <Content Include="Images\MessageIcons\action_rss.gif" />
+    <Content Include="Images\MessageIcons\action_settings.gif" />
+    <Content Include="Images\MessageIcons\add.gif" />
+    <Content Include="Images\MessageIcons\BackTab.png" />
+    <Content Include="Images\MessageIcons\calendar.png" />
+    <Content Include="Images\MessageIcons\correct.png" />
+    <Content Include="Images\MessageIcons\DateSelector.gif" />
+    <Content Include="Images\MessageIcons\dnnanim.gif" />
+    <Content Include="Images\MessageIcons\dnrt.gif" />
+    <Content Include="Images\MessageIcons\eip_edit.gif" />
+    <Content Include="Images\MessageIcons\eip_save.gif" />
+    <Content Include="Images\MessageIcons\error.gif" />
+    <Content Include="Images\MessageIcons\error.jpg" />
+    <Content Include="Images\MessageIcons\error.png" />
+    <Content Include="Images\MessageIcons\folderclosed.gif" />
+    <Content Include="Images\MessageIcons\folderopen.gif" />
+    <Content Include="Images\MessageIcons\folderup.gif" />
+    <Content Include="Images\MessageIcons\green-ok.gif" />
+    <Content Include="Images\MessageIcons\icon_authentication_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_authentication_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_bulkmail_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_bulkmail_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_exceptionviewer_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_filemanager_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_filemanager_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_help_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_hostsettings_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_hostsettings_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_hostusers_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_hostusers_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_language_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_language_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_lists_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_lists_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_moduledefinitions_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_moduledefinitions_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_profile_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_profile_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_recyclebin_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_scheduler_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_scheduler_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_search_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_search_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_securityroles_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_securityroles_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_sitelog_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_sitelog_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_sitesettings_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_sitesettings_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_skins_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_skins_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_sql_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_sql_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_survey.jpg" />
+    <Content Include="Images\MessageIcons\icon_survey_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_users_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_users_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_Vendors_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_Vendors_32px.gif" />
+    <Content Include="Images\MessageIcons\icon_whatsnew_16px.gif" />
+    <Content Include="Images\MessageIcons\icon_whatsnew_32px.gif" />
+    <Content Include="Images\MessageIcons\lock.png" />
+    <Content Include="Images\MessageIcons\print.png" />
+    <Content Include="Images\MessageIcons\printable_version_icon.gif" />
+    <Content Include="Images\MessageIcons\rss.gif" />
+    <Content Include="Images\MessageIcons\save.gif" />
+    <Content Include="Images\MessageIcons\search.gif" />
+    <Content Include="Images\MessageIcons\search_go.gif" />
+    <Content Include="Images\MessageIcons\settings.gif" />
+    <Content Include="Images\MessageIcons\userOnline.gif" />
+    <Content Include="Images\MessageIcons\Users1.png" />
+    <Content Include="Images\MessageIcons\view.gif" />
+    <Content Include="Images\MessageIcons\xml.gif" />
+    <Content Include="Images\MessageIcons\yellow-warning.gif" />
+    <Content Include="Images\Nav\ffw.png" />
+    <Content Include="Images\Nav\myHeaderPlain.png" />
+    <Content Include="Images\Nav\NavBg.png" />
+    <Content Include="Images\Nav\NavBgAlt.png" />
+    <Content Include="Images\Nav\NavBgAlt2.png" />
+    <Content Include="Images\Nav\next.png" />
+    <Content Include="Images\Nav\PlainBG3.png" />
+    <Content Include="Images\Nav\prev.png" />
+    <Content Include="Images\Nav\rrw.png" />
+    <Content Include="Images\Nav\side1.png" />
+    <Content Include="Images\Nav\spacer.png" />
+    <Content Include="Images\Nav\subMenu.png" />
+    <Content Include="Images\Nav\Tabhead.png" />
+    <Content Include="Images\TabImages\blueGrad.jpg" />
+    <Content Include="Images\TabImages\green.jpg" />
+    <Content Include="Images\TabImages\lightblue.jpg" />
+    <Content Include="Images\TabImages\orange.jpg" />
+    <Content Include="Images\TabImages\red.jpg" />
+    <Content Include="Images\TabImages\tab-active-left.gif" />
+    <Content Include="Images\TabImages\tab-active-right.gif" />
+    <Content Include="Images\TabImages\tab-active.gif" />
+    <Content Include="Images\TabImages\tab-hover-left.gif" />
+    <Content Include="Images\TabImages\tab-hover-right.gif" />
+    <Content Include="Images\TabImages\tab-hover.gif" />
+    <Content Include="Images\TabImages\tab-left.gif" />
+    <Content Include="Images\TabImages\tab-line.gif" />
+    <Content Include="Images\TabImages\tab-right.gif" />
+    <Content Include="Images\TabImages\tab.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-active-left.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-active-right.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-active.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-hover-left.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-hover-right.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-hover.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-left.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-line.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab-right.gif" />
+    <Content Include="Images\TabImages\xpTabs\tab.gif" />
+    <Content Include="README.jQuery.vsdoc.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\application-3.3.0.js" />
+    <Content Include="Scripts\bootstrap-2.3.1.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Default.js" />
+    <Content Include="Scripts\DesignScripts.js" />
+    <Content Include="Scripts\expressInstall.swf" />
+    <Content Include="Scripts\GridCheckbox.js" />
+    <Content Include="Scripts\IE7.js" />
+    <Content Include="Scripts\IE8.js" />
+    <Content Include="Scripts\IE9.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
+    <Content Include="Scripts\jquery-ui-sliderAccess.js" />
+    <Content Include="Scripts\jquery-ui-timepicker-addon.js" />
+    <Content Include="Scripts\jquery.form.js" />
+    <Content Include="Scripts\jquery.form.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\Prototype.js" />
+    <Content Include="Scripts\swfobject_modified.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssetManagement\frmManageCategoriesOfAssets.ascx.cs">
+      <DependentUpon>frmManageCategoriesOfAssets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssetManagement\frmManageCategoriesOfAssets.ascx.designer.cs">
+      <DependentUpon>frmManageCategoriesOfAssets.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AssetManagement\frmManageCompanyAssets.ascx.cs">
+      <DependentUpon>frmManageCompanyAssets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssetManagement\frmManageCompanyAssets.ascx.designer.cs">
+      <DependentUpon>frmManageCompanyAssets.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AssetManagement\frmManageTypesOfAssets.ascx.cs">
+      <DependentUpon>frmManageTypesOfAssets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssetManagement\frmManageTypesOfAssets.ascx.designer.cs">
+      <DependentUpon>frmManageTypesOfAssets.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\AlertControl\ConfirmAlertBox.ascx.cs">
+      <DependentUpon>ConfirmAlertBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\AlertControl\ConfirmAlertBox.ascx.designer.cs">
+      <DependentUpon>ConfirmAlertBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\ErrorControl\ErrorDisplay.ascx.cs">
+      <DependentUpon>ErrorDisplay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\ErrorControl\ErrorDisplay.ascx.designer.cs">
+      <DependentUpon>ErrorDisplay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\ErrorControl\ModuleAccessDenied.ascx.cs">
+      <DependentUpon>ModuleAccessDenied.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\ErrorControl\ModuleAccessDenied.ascx.designer.cs">
+      <DependentUpon>ModuleAccessDenied.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\ExpenseManagerModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExpenseManagerModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\GridPager\GridPager.ascx.cs">
+      <DependentUpon>GridPager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\GridPager\GridPager.ascx.designer.cs">
+      <DependentUpon>GridPager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\Home\ChangeMyPassword.ascx.cs">
+      <DependentUpon>ChangeMyPassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\Home\ChangeMyPassword.ascx.designer.cs">
+      <DependentUpon>ChangeMyPassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\Home\MyUserProfile.ascx.cs">
+      <DependentUpon>MyUserProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\Home\MyUserProfile.ascx.designer.cs">
+      <DependentUpon>MyUserProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\ModalEngine\xModalPopup.ascx.cs">
+      <DependentUpon>xModalPopup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\ModalEngine\xModalPopup.ascx.designer.cs">
+      <DependentUpon>xModalPopup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\MySQLMapProvider.cs" />
+    <Compile Include="CoreFramework\PortalAdmin\SiteMapMgt.ascx.cs">
+      <DependentUpon>SiteMapMgt.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\PortalAdmin\SiteMapMgt.ascx.designer.cs">
+      <DependentUpon>SiteMapMgt.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\PortalAdmin\UserRoleMgt.ascx.cs">
+      <DependentUpon>UserRoleMgt.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\PortalAdmin\UserRoleMgt.ascx.designer.cs">
+      <DependentUpon>UserRoleMgt.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\PortalServiceManager.cs" />
+    <Compile Include="CoreFramework\SiteAdmin\ManageUser.ascx.cs">
+      <DependentUpon>ManageUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\SiteAdmin\ManageUser.ascx.designer.cs">
+      <DependentUpon>ManageUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\SiteAdmin\ResetLockedUser.ascx.cs">
+      <DependentUpon>ResetLockedUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\SiteAdmin\ResetLockedUser.ascx.designer.cs">
+      <DependentUpon>ResetLockedUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\SiteAdmin\UserProfile.ascx.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\SiteAdmin\UserProfile.ascx.designer.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CoreFramework\SiteError.aspx.cs">
+      <DependentUpon>SiteError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreFramework\Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpensemanagerEmailSenderUtility.cs" />
+    <Compile Include="ExpenseMgt\DropDownCheckBox\xDropDownCheckBox.ascx.cs">
+      <DependentUpon>xDropDownCheckBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\DropDownCheckBox\xDropDownCheckBox.ascx.designer.cs">
+      <DependentUpon>xDropDownCheckBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\DropDownCheckBox\xDropDownCheckBoxHelper.cs" />
+    <Compile Include="ExpenseMgt\FrmAmendRejectedTransaction.ascx.cs">
+      <DependentUpon>FrmAmendRejectedTransaction.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmAmendRejectedTransaction.ascx.designer.cs">
+      <DependentUpon>FrmAmendRejectedTransaction.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmApproveExpenseTransaction.ascx.cs">
+      <DependentUpon>frmApproveExpenseTransaction.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmApproveExpenseTransaction.ascx.designer.cs">
+      <DependentUpon>frmApproveExpenseTransaction.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmBeneficiaryType.ascx.cs">
+      <DependentUpon>FrmBeneficiaryType.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmBeneficiaryType.ascx.designer.cs">
+      <DependentUpon>FrmBeneficiaryType.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmCompleteExpensePayment.ascx.cs">
+      <DependentUpon>frmCompleteExpensePayment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmCompleteExpensePayment.ascx.designer.cs">
+      <DependentUpon>frmCompleteExpensePayment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmManageApprover.ascx.cs">
+      <DependentUpon>FrmManageApprover.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmManageApprover.ascx.designer.cs">
+      <DependentUpon>FrmManageApprover.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageBeneficiary.ascx.cs">
+      <DependentUpon>frmManageBeneficiary.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageBeneficiary.ascx.designer.cs">
+      <DependentUpon>frmManageBeneficiary.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageDepartments.ascx.cs">
+      <DependentUpon>frmManageDepartments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageDepartments.ascx.designer.cs">
+      <DependentUpon>frmManageDepartments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageExpensePayment.ascx.cs">
+      <DependentUpon>frmManageExpensePayment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageExpensePayment.ascx.designer.cs">
+      <DependentUpon>frmManageExpensePayment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmManageUnit.ascx.cs">
+      <DependentUpon>FrmManageUnit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmManageUnit.ascx.designer.cs">
+      <DependentUpon>FrmManageUnit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmViewTransaction.ascx.cs">
+      <DependentUpon>FrmViewTransaction.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmViewTransaction.ascx.designer.cs">
+      <DependentUpon>FrmViewTransaction.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmVoidTransaction.ascx.cs">
+      <DependentUpon>FrmVoidTransaction.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\FrmVoidTransaction.ascx.designer.cs">
+      <DependentUpon>FrmVoidTransaction.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\FrmAccountsHeadReport.ascx.cs">
+      <DependentUpon>FrmAccountsHeadReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\FrmAccountsHeadReport.ascx.designer.cs">
+      <DependentUpon>FrmAccountsHeadReport.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\frmTransactionItemsReport.ascx.cs">
+      <DependentUpon>frmTransactionItemsReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\frmTransactionItemsReport.ascx.designer.cs">
+      <DependentUpon>frmTransactionItemsReport.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\frmTransactionPaymentsReport.ascx.cs">
+      <DependentUpon>frmTransactionPaymentsReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\frmTransactionPaymentsReport.ascx.designer.cs">
+      <DependentUpon>frmTransactionPaymentsReport.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\frmTransactionReport.ascx.cs">
+      <DependentUpon>frmTransactionReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\frmTransactionReport.ascx.designer.cs">
+      <DependentUpon>frmTransactionReport.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\FrmItemsReport.ascx.cs">
+      <DependentUpon>FrmItemsReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\FrmItemsReport.ascx.designer.cs">
+      <DependentUpon>FrmItemsReport.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\FrmMulttipleVoucher.ascx.cs">
+      <DependentUpon>FrmMulttipleVoucher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\FrmMulttipleVoucher.ascx.designer.cs">
+      <DependentUpon>FrmMulttipleVoucher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\FrmSingleVoucher.ascx.cs">
+      <DependentUpon>FrmSingleVoucher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\FrmSingleVoucher.ascx.designer.cs">
+      <DependentUpon>FrmSingleVoucher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\ReportFiles\LRMultiVoucher.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LRMultiVoucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\ReportFiles\LRVoucher.cs">
+      <DependentUpon>LRVoucher.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\ReportFiles\ReportDs.cs">
+      <DependentUpon>ReportDs.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\ReportFiles\ReportDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\ReportFiles\VoucherItem.cs" />
+    <Compile Include="ExpenseMgt\Reports\ReportFiles\XplugMultiVoucher.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XplugMultiVoucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Reports\ReportFiles\xPlugVoucher.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>xPlugVoucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\MultiVoucherManager.aspx.cs">
+      <DependentUpon>MultiVoucherManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\MultiVoucherManager.aspx.designer.cs">
+      <DependentUpon>MultiVoucherManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\VoucherManager.aspx.cs">
+      <DependentUpon>VoucherManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\Voucher\VoucherManager.aspx.designer.cs">
+      <DependentUpon>VoucherManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\AssetsManagement.ascx.cs">
+      <DependentUpon>AssetsManagement.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\AssetsManagement.ascx.designer.cs">
+      <DependentUpon>AssetsManagement.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\BeneficiaryManagement.ascx.cs">
+      <DependentUpon>BeneficiaryManagement.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\BeneficiaryManagement.ascx.designer.cs">
+      <DependentUpon>BeneficiaryManagement.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\Departments.ascx.cs">
+      <DependentUpon>Departments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\Departments.ascx.designer.cs">
+      <DependentUpon>Departments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\ExpenseManagement.ascx.cs">
+      <DependentUpon>ExpenseManagement.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\ExpenseManagement.ascx.designer.cs">
+      <DependentUpon>ExpenseManagement.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\ExpenseTransaction.ascx.cs">
+      <DependentUpon>ExpenseTransaction.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\ExpenseTransaction.ascx.designer.cs">
+      <DependentUpon>ExpenseTransaction.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\Home.ascx.cs">
+      <DependentUpon>Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\Home.ascx.designer.cs">
+      <DependentUpon>Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\InitiateTransactions.ascx.cs">
+      <DependentUpon>InitiateTransactions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\InitiateTransactions.ascx.designer.cs">
+      <DependentUpon>InitiateTransactions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\PortalAdmin.ascx.cs">
+      <DependentUpon>PortalAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\PortalAdmin.ascx.designer.cs">
+      <DependentUpon>PortalAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\SiteAdmin.ascx.cs">
+      <DependentUpon>SiteAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\SiteAdmin.ascx.designer.cs">
+      <DependentUpon>SiteAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\SiteAdministration.ascx.cs">
+      <DependentUpon>SiteAdministration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\SiteAdministration.ascx.designer.cs">
+      <DependentUpon>SiteAdministration.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\TransactionApproval.ascx.cs">
+      <DependentUpon>TransactionApproval.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\TransactionApproval.ascx.designer.cs">
+      <DependentUpon>TransactionApproval.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\TransactionPayments.ascx.cs">
+      <DependentUpon>TransactionPayments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\TransactionPayments.ascx.designer.cs">
+      <DependentUpon>TransactionPayments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\TransactionReports.ascx.cs">
+      <DependentUpon>TransactionReports.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\TransactionReports.ascx.designer.cs">
+      <DependentUpon>TransactionReports.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\UpdatePayments.ascx.cs">
+      <DependentUpon>UpdatePayments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\UpdatePayments.ascx.designer.cs">
+      <DependentUpon>UpdatePayments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quicklinks\ViewTransactions.ascx.cs">
+      <DependentUpon>ViewTransactions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quicklinks\ViewTransactions.ascx.designer.cs">
+      <DependentUpon>ViewTransactions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="XpenseManager.aspx.cs">
+      <DependentUpon>XpenseManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XpenseManager.aspx.designer.cs">
+      <DependentUpon>XpenseManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="expenseManagerStructuredServices.asmx.cs">
+      <DependentUpon>expenseManagerStructuredServices.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageCategoriesOfExpenses.ascx.cs">
+      <DependentUpon>frmManageCategoriesOfExpenses.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageCategoriesOfExpenses.ascx.designer.cs">
+      <DependentUpon>frmManageCategoriesOfExpenses.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageHeadsOfAccounts.ascx.cs">
+      <DependentUpon>frmManageHeadsOfAccounts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageHeadsOfAccounts.ascx.designer.cs">
+      <DependentUpon>frmManageHeadsOfAccounts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageExpenseItems.ascx.cs">
+      <DependentUpon>frmManageExpenseItems.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageExpenseItems.ascx.designer.cs">
+      <DependentUpon>frmManageExpenseItems.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageTransactions.ascx.cs">
+      <DependentUpon>frmManageTransactions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageTransactions.ascx.designer.cs">
+      <DependentUpon>frmManageTransactions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageTypesOfExpenses.ascx.cs">
+      <DependentUpon>frmManageTypesOfExpenses.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseMgt\frmManageTypesOfExpenses.ascx.designer.cs">
+      <DependentUpon>frmManageTypesOfExpenses.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="KPortal.Master.cs">
+      <DependentUpon>KPortal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KPortal.Master.designer.cs">
+      <DependentUpon>KPortal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptItems.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+    <Folder Include="GeneratedDocuments\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KPortal.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="CoreFramework\ExpenseManagerModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ExpenseManagerModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Downloads\CandidateTemplate.xlsx" />
+    <None Include="Downloads\QuestionSample.xlsx" />
+    <None Include="ExpenseMgt\Reports\ReportFiles\ReportDs.xsc">
+      <DependentUpon>ReportDs.xsd</DependentUpon>
+    </None>
+    <None Include="ExpenseMgt\Reports\ReportFiles\ReportDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ExpenseMgt\Reports\ReportFiles\ReportDs.xss">
+      <DependentUpon>ReportDs.xsd</DependentUpon>
+    </None>
+    <None Include="Scripts\jquery-2.0.3.min.map" />
+    <None Include="Scripts\jquery-2.1.0.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\xPlug.BusinessManager\xPlug.BusinessManager.csproj">
+      <Project>{AD8D4C2B-22FD-4509-ADAB-250F75CF7151}</Project>
+      <Name>xPlug.BusinessManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xPlug.BusinessObject\xPlug.BusinessObject.csproj">
+      <Project>{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}</Project>
+      <Name>xPlug.BusinessObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xPlug.BusinessService\xPlug.BusinessService.csproj">
+      <Project>{DE5DEB16-0EB6-48EF-9BFC-BEFDCED6FB25}</Project>
+      <Name>xPlug.BusinessService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExpenseMgt\Reports\ReportFiles\LRMultiVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LRMultiVoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseMgt\Reports\ReportFiles\LRVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LRVoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseMgt\Reports\ReportFiles\XplugMultiVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>XplugMultiVoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseMgt\Reports\ReportFiles\xPlugVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>xPlugVoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4555</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

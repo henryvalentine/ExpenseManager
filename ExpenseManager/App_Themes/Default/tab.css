@@ -1,0 +1,85 @@
+.visoft__tab_xpie7 .ajax__tab_header { background: #fff;
+border-radius: 3px 3px 0px 0px;
+-moz-border-radius: 3px 3px 0px 0px;
+-webkit-border-radius: 3px 3px 0px 0px;
+-ms-border-radius: 3px 3px 0px 0px;
+-o-border-radius: 3px 3px 0px 0px;
+width: auto;
+
+border-bottom:solid 3px #038103;
+color: #fff; height: 100%;
+padding-bottom: 6px;
+}
+
+.visoft__tab_xpie7 .ajax__tab_outer {
+height: 20px;
+padding-bottom: 0px;
+width: auto;
+padding: 0px;
+margin: 0px;
+}
+
+.visoft__tab_xpie7 .ajax__tab_inner
+{
+
+
+
+}
+
+.visoft__tab_xpie7 .ajax__tab_tab {
+
+background: #038103;
+     filter:alpha(opacity=67);
+            opacity:0.67;
+border-radius: 5px 5px 0px 0px;
+-moz-border-radius: 5px 5px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+-ms-border-radius: 5px 5px 0px 0px;
+-o-border-radius: 5px 5px 0px 0px;
+width: auto;
+height: 20px;
+padding-left: 17px;
+margin-right: 4px;
+padding-right: 17px;
+padding-top: 3px;
+padding-bottom: 3px;
+color: #fff;
+text-align: left;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+
+.visoft__tab_xpie7 .ajax__tab_hover .ajax__tab_outer {
+
+  
+}
+
+
+.visoft__tab_xpie7 .ajax__tab_hover .ajax__tab_inner {
+  
+}
+
+
+.visoft__tab_xpie7 .ajax__tab_hover .ajax__tab_tab {
+    background: #038103;
+     filter:alpha(opacity=78);
+            opacity:0.78;
+}
+
+
+.visoft__tab_xpie7 .ajax__tab_active .ajax__tab_outer {
+
+width: auto;
+}
+
+
+.visoft__tab_xpie7 .ajax__tab_active .ajax__tab_inner {
+
+}
+
+.visoft__tab_xpie7 .ajax__tab_active .ajax__tab_tab {
+background: #038103;
+ filter:alpha(opacity=90);
+            opacity:0.9;
+}

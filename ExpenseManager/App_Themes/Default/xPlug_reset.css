@@ -1,0 +1,147 @@
+/*!
+ * Xplug Styles v1.0.0
+ *
+ * Copyright 2013 xPlug Technologies Limited
+ *
+ * @ Reset CSS
+ */
+ 
+
+
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+ /* vertical-align: middle;*/
+ 
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus {
+		-moz-outline: 0;
+		outline: 0;
+		outline-offset: 0;
+	}	
+	a img {
+		border: 0;
+	}
+
+
+
+/* tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	caption, th, td {
+		text-align: left;
+	}
+
+
+
+/* misc */
+
+
+
+
+/* clearing */
+.clear {
+	clear: both;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* GENERAL */
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+dl { 
+	margin: 0 0 1.5em 0; 
+}
+	dl dt {
+		font-weight: bold; 
+	}
+	dl dd { 
+		margin-left: 1.5em;
+	}	
+
+pre, code { 
+	margin: 1.5em 0; 
+	white-space: pre; 
+}
+
+pre, code, tt { 
+	font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+	line-height: 1.5; 
+}
+
+abbr, acronym { 
+	border-bottom: 1px dotted #666; 
+}
+
+address { 
+	margin: 0 0 1.5em; 
+	font-style: italic; 
+}
+
+del { 
+	color: #666; 
+}
+
+blockquote { 
+/* 	margin: 1.5em;  */
+}
+
+strong { 
+	font-weight: bold; 
+}
+
+em, dfn { 
+	font-style: italic; 
+}
+
+dfn { 
+	font-weight: bold; 
+}
+
+sup, sub { 
+	line-height: 0; 
+}
+
+label { 
+	min-width: 110px;
+}
+
+fieldset { 
+	padding:1.4em; 
+	/*margin: 0 0 1.5em 0; */
+	border: 1px solid #ccc; 
+}
+
+legend { 
+	font-weight: bold; 
+	font-size:1.2em; 
+}
+
+input.text, 
+input.title,
+textarea, 
+select {
+  margin: 0.5em 0;
+  border: 1px solid #bbb;
+    width: 100%;
+}

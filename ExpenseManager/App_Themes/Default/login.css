@@ -1,0 +1,341 @@
+﻿body 
+{
+	/*background-image: url('../../Images/Master/bg.png'); 	background-repeat: repeat-x; background-position:top;*/
+	color:#000000;
+	font-family:verdana,tahoma,tahoma,arial; 
+	font-size:8pt; 
+	font-weight:normal;
+	margin:0;
+    padding:0;
+     
+}
+
+ /* Override some defaults */
+      html, body {
+       background-color: #f9f5eb ;
+         font-family: 'Open Sans', sans-serif;
+      }
+      
+/*.head {
+	height: 62px;
+	width: 100%;
+	// background-color: #0b80ae;
+	background: linear-gradient(top, #3290b8 0%, #0b80ae 100%);  
+	background: -moz-linear-gradient(top, #3290b8 0%, #0b80ae 100%); 
+	background: -webkit-linear-gradient(top, #3290b8 0%, #0b80ae 100%); 
+	//
+	 background: #3993ba;
+        background: -moz-linear-gradient(top, #3993ba 0%, #067ead 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3993ba), color-stop(100%,#067ead));
+        background: -webkit-linear-gradient(top, #3993ba 0%,#067ead 100%);
+        background: -o-linear-gradient(top, #3993ba 0%,#067ead 100%);
+        background: -ms-linear-gradient(top, #3993ba 0%,#067ead 100%);
+        background: linear-gradient(top, #3993ba 0%,#067ead 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3993ba', endColorstr='#067ead',GradientType=0 
+
+);*/
+
+.head{ 
+    width:100%;
+    /*background: #007071;*/
+    background-image: url('../../Images/top.png');
+    height:100px;
+    box-shadow:0px 2px 2px #999;
+    -moz-box-shadow:0px 2px 2px #999;
+    -webkit-box-shadow:0px 2px 2px #999;
+    -ms-box-shadow:0px 2px 2px #999;
+    -o-box-shadow:0px 2px 2px #999;
+    position:relative;
+   
+    float: left;
+    margin-bottom: 20px;
+   
+    z-index:1000;
+}
+	
+  
+.log {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    
+}
+
+  .container {
+      width: 340px; margin:0 auto;
+     
+      }
+       
+
+      /* The white background content wrapper */
+      .container > .content {
+       background-color: #fff;
+        padding: 20px 10px;
+        
+        -webkit-border-radius: 10px 10px 10px 10px;
+           -moz-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0 0px 5px #a6a696;
+           -moz-box-shadow: 0 0px 5px #a6a696;
+           -o-box-shadow: 0 0px 5px #a6a696;
+                box-shadow: 0 0px 5px #a6a696;
+      }
+
+      .login-form {
+        margin-left: 15px;
+      }
+
+      legend {
+        margin-right: -50px;
+        font-weight: bold;
+        color: #404040;
+      }
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.Butt1x 
+{
+	background :url('../../Images/Framework/but1.png'); background-repeat:repeat-x;  padding: 1px 0px  0px 0px; height:20px; width:90px;
+	color:#fff;font-family: Trebuchet MS, Tw Cen MT,verdana, tahoma, arial; font-size:8pt; font-weight: bold; border:0; cursor:hand;
+	
+}
+
+
+
+
+
+.logtext {
+    
+    width: 256px;
+    height:18px; 
+    padding: 14px; 
+    background-color: #fdfdc6; 
+    color: #333; 
+    font-size: 12pt; 
+    font-weight: bold;
+    text-align: center;
+    -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+           -o-border-radius: 5px;
+                border-radius: 5px;
+                 -webkit-box-shadow: 0 0px 5px #a6a696;
+           -moz-box-shadow: 0 0px 5px #a6a696;
+           -o-box-shadow: 0 0px 5px #a6a696;
+                box-shadow: 0 0px 5px #a6a696;
+    
+    
+}
+
+
+.loginp{ padding: 0px;
+    line-height: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 2px;}
+    
+    
+ .loginperror{padding-top: 5px;
+    line-height: 0px;
+    font-size: 9px;
+    font-weight: normal;
+    color: #tomato;
+     position: relative;
+     float: left;
+    
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container_demo{
+	 text-align: left;
+    margin-top: 50px;	
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    float: left;
+	 padding: 0;
+	 font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+
+/** fonts used for the icons **/ 
+
+
+a.hiddenanchor{
+	display: none;
+}
+/** The wrapper that will contain our two forms **/
+#wrapper{
+	width: 425px;
+	right: 1px;
+	height: 289px;	
+	margin: 0px auto;	
+	position: relative;
+    top: 0px;
+}
+/**** Styling the form elements **/
+
+/**** general text styling ****/
+#wrapper a{
+	color: #333;
+	text-decoration: underline;
+}
+
+#wrapper h1{
+	font-size: 20px;
+	color: #666;
+	
+	
+}
+/** For the moment only webkit supports the background-clip:text; */
+#wrapper h1{
+    /*
+background: -webkit-repeating-linear-gradient(-45deg, 
+	#333, 
+	#444 20px, 
+	#333 20px, 
+	#333 40px, 
+	#333 40px);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+*/
+}
+#wrapper h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 10px;
+    background-color: #dcdcdb;
+	
+	}
+
+#wrapper p{
+	margin-bottom:1px;
+}
+#wrapper p:first-child{
+	margin: 0px;
+}
+#wrapper label{
+	color:#999;
+	position: relative;
+}
+
+/**** advanced input styling ****/
+/* placeholder */
+::-webkit-input-placeholder  { 
+	color: rgb(190, 188, 188); 
+	font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{ 
+	color: rgb(190, 188, 188);
+	font-style: italic;
+} 
+input {
+  outline: none;
+}
+
+/* all the input except submit and checkbox */
+#wrapper input:not([type="checkbox"]){
+   
+	margin-top: 4px;
+	padding: 5px 5px 5px 5px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+#wrapper input:not([type="checkbox"]):active,
+#wrapper input:not([type="checkbox"]):focus{
+	border: 1px solid rgba(91, 90, 90, 0.7);
+	background: rgba(238, 236, 240, 0.2);	
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+} 
+
+
+
+/*styling both submit buttons */
+
+
+/* styling the checkbox "keep me logged in"*/
+
+
+
+
+
+/** Styling both forms **/
+#register, 
+#login{
+	position: absolute;
+	top: 0px;
+	width: 75%;	
+	padding: 0px 6% 20px 6%;
+	margin: 0 0 15px 0;
+	/*background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;*/
+    box-shadow: 0px 0px 5px #ccc;
+    -moz-box-shadow: 0px 0px 5px #ccc;
+    -webkit-box-shadow: 0px 0px 5px #ccc;
+    -ms-box-shadow: 0px 0px 5px #ccc;
+    -o-box-shadow: 0px 0px 5px #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid #999;
+}
+#register{	
+	z-index: 21;
+	opacity: 0;
+}
+#login{
+	z-index: 22;
+}

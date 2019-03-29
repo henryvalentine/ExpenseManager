@@ -1,0 +1,995 @@
+﻿    
+.customButton 
+    {
+display: inline-block;
+padding: 7px 20px;
+font-size: 12px;
+font-weight: 900;
+color: #fff;
+background: rgb(139, 141, 144);
+background: linear-gradient(to bottom, rgb(236, 237, 237) 0px, rgb(139, 141, 144) 3%, rgb(100, 103, 107) 100%) repeat scroll 0% 0% transparent;
+background: -moz-linear-gradient(to bottom, rgb(236, 237, 237) 0px, rgb(139, 141, 144) 3%, rgb(100, 103, 107) 100%) repeat scroll 0% 0% transparent;
+background: -webkit-linear-gradient(to bottom, rgb(236, 237, 237) 0px, rgb(139, 141, 144) 3%, rgb(100, 103, 107) 100%) repeat scroll 0% 0% transparent;
+background: -o-linear-gradient(to bottom, rgb(236, 237, 237) 0px, rgb(139, 141, 144) 3%, rgb(100, 103, 107) 100%) repeat scroll 0% 0% transparent;
+background: rgb(139, 141, 144);
+border: 1px solid rgb(100, 103, 107);
+border-radius: 3px 3px 3px 3px;
+line-height: 1;
+cursor: pointer;
+text-align: center;
+}
+.addedCss
+{
+text-align: left;
+}
+
+.customButton:hover 
+{
+ display: inline-block;
+border: 1px solid #333333;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+color: white;
+font-weight: bold;
+text-align: center;
+text-shadow: 0 -1px 0 #414141;
+height: auto;
+    }   
+    
+    
+ .customizedButton 
+    {
+        border: medium none #038103;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        color:#038103;
+        cursor: pointer;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 1px .5px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 1px .5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    
+     .tipDiv{
+	background-color: rgb(255, 255, 255);
+	border: rgb(204, 204, 204) solid 1px; 	 
+	position: absolute; 
+	padding: 7px; 
+	border-top: 3px; 
+	border-bottom: 3px; 
+	top: 27px; 
+	z-index:9999; 
+	left: 22px; 
+	display:none;	
+}
+
+ .shadow {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.296875) 0px 3px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.296875) 0px 3px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.296875) 0px 3px 8px;
+	
+	/* For IE 8 */
+	border:1px solid #e0e0e0;
+   
+	/* For IE 5.5 - 7 */
+	border:1px solid #e0e0e0; 
+
+  }
+    
+    .customButtonTransit 
+        {
+            background-image   : none;
+            -webkit-transition : background-color 2s linear, color 2s linear;
+            -moz-transition    : background-color 2s linear, color 2s linear;
+            -ms-transition     : background-color 2s linear, color 2s linear;
+            -o-transition      : background-color 2s linear, color 2s linear;
+            transition         : background-color 2s linear, color 2s linear;
+       }
+    
+    .radioGroup 
+    {
+        margin-left: 2%;  
+    }
+    
+    .customDropdownList
+        {
+            background: url('../../Images/DropDown.PNG') no-repeat scroll 99% center ;
+            width: 100%;
+            height: 22px;
+	        border: 1px solid green;
+            cursor: default;
+        }
+        
+    .multiSelect
+        {
+            margin-top: -22px;
+            display: none;
+	        border: 1.3px solid green;
+	        margin:0;
+            color: black;
+            min-width: 45.3%;
+            max-width: auto;
+            padding:0;
+            border-top:solid 1px silver;
+        }
+        
+        .customH2 
+    {
+        margin-top: 0;
+	    font-weight: 600;
+	    margin-bottom: 0;
+	    line-height: 0;
+	    padding-bottom:0;
+	   
+	    border-bottom: none;
+	    font-weight: normal;
+    }
+    
+    .btmSpacing {
+        padding-bottom: 100%; 
+        margin-bottom: 100%
+    }
+    
+     .customLabel {
+                color: #038103; font-family:"Segoe UI",Tahoma,Arial,sans-serif; font-size: 0.9em;
+            }
+            .customLabel2 {
+                color: black;font-family: "Segoe UI",Tahoma,Arial,sans-serif; font-weight: bold; font-size: 1em;
+            }
+            
+             .customLabel3 {
+                color: black;font-family: "Segoe UI",Tahoma,Arial,sans-serif;font-weight: bold; font-size: .9em;
+            }
+    
+   
+     .loginButton 
+     {
+        float: right;
+        min-width: 134px;
+        height: 31px;
+        border: 1px solid rgb(73, 135, 51);
+        background-color: #448002;
+	    background: -webkit-gradient(linear, left top, left bottom, from(#61a318), to(#448002));
+	    background: -webkit-linear-gradient(top, #61a318, #448002);
+	    background: -moz-linear-gradient(top, #61a318, #448002);
+	    background: -ms-linear-gradient(top, #61a318, #448002);
+	    background: -o-linear-gradient(top, #61a318, #448002);
+        background: linear-gradient(top, #61a318, #448002);
+        font-weight: bold;
+        color: white;
+        text-align: center;
+       
+        border-radius: 2px 2px 2px 2px;
+        cursor: pointer;
+     }
+     
+    .loginButton:hover 
+     {
+        float: right;
+        min-width: 134px;
+        height: 31px;
+        border: 1px solid rgb(73, 135, 51);
+        background-color: #448002;
+	    background: -webkit-gradient(linear, left top, left bottom, from(#448002), to(#61a318));
+	    background: -webkit-linear-gradient(top, #448002, #61a318);
+	    background: -moz-linear-gradient(top, #448002, #61a318);
+	    background: -ms-linear-gradient(top, #448002, #61a318);
+	    background: -o-linear-gradient(top, #448002, #61a318);
+        background: linear-gradient(top, #448002, #61a318);
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        border-radius: 2px 2px 2px 2px;
+        cursor: pointer;
+     } 
+     
+     .loginButton:active {
+
+         position: relative;
+         top: 1px;  
+     }
+     
+      .alternatingRowStyle {
+          background: #eaede9;
+            color: rgba(25, 24, 24, 0.72);
+           
+        }
+     
+        
+        .username
+{
+    text-indent: 30px; 
+    background: #fff url('Images/loginuser.png') 1px center no-repeat;
+}
+        .password
+{
+    text-indent: 30px;
+    background:#fff url('Images/password.png') 1px center no-repeat;
+}
+        
+        .popupBackground 
+        {
+            background-color:#a2bda4;
+            filter:alpha(opacity=37);
+            opacity:0.37;
+            
+        }
+        
+        .dvContainer
+         {
+             width: 100%;
+            margin: 0;
+           
+            
+        }
+        
+        .divLine {
+            width: 100%;
+            border-radius: 5px;
+           
+        }
+         .approvalFieldset {
+            border-radius: 5px; 
+            border: 1px groove #038103; 
+            margin-top: 2%;width: 100%;
+            margin-left: 1%
+        }
+        
+         .approvalFieldset2 {
+            border-radius: 5px; 
+            border: 1px groove #038103; 
+            margin-top: 2%;width: 40%;
+            margin-left: 1%
+        }
+        
+        .divBackground 
+        {
+            background-color: #dcdcdc;
+             background: linear-gradient(top, #f9f9f9 0%, #cac9c9 100%);  
+	        background: -moz-linear-gradient(top, #f9f9f9 0%, #cac9c9 100%); 
+	        background: -webkit-linear-gradient(top, #f9f9f9 0%, #cac9c9 100%); 
+            width: 100%;
+            text-align: left;
+            line-height: 2;
+            color: rgb(255, 255, 255);
+            border: 0px none transparent;
+            
+            
+        }
+        
+        .infoLabel {
+            color: rgb(105, 105, 105);
+        }
+        
+        .divBackground2
+        {
+            background:  rgba(202,201,201, 0.1) ;  
+            width: 100%;
+            text-align: left;
+            line-height: 2;
+            color: rgb(255, 255, 255);
+            border: 0px groove transparent;
+            box-shadow: 0px 0px 1px #999;
+-moz-box-shadow: 0px 0px 1px #999;
+-webkit-box-shadow: 0px 0px 1px #999;
+-ms-box-shadow: 0px 0px 1px #999;
+-o-box-shadow: 0px 0px 1px #999;
+        }
+        
+.rptfooter{ width: 100%;
+    background: #eaf4e6;}        
+         .divBackground3
+        {
+            background:  #a9a9a9 ;  
+            width: 100%;
+            text-align: left;
+            line-height: 2;
+            color: rgb(255, 255, 255);
+            border: 1px groove transparent;
+           
+        }      
+        
+        .popupDiv 
+        {
+            border: 1px groove #038103;
+        }
+        
+        .gridHeader
+         {
+          
+font-weight: bold;
+            background: #eaf4e6;
+            color: #008000;
+            border-bottom: 1px solid #b5b3b3;
+            
+        }
+        
+        .gridHeaderPop
+         {
+          background: #eaf4e6;
+            color: #008000;
+            border-bottom: 1px solid #b5b3b3;
+            
+        }
+        
+ .gridHeader th{ padding: 5px;}       
+        
+.gridFooter td
+         {
+           
+font-weight: bolder;
+background: #eaf4e6;
+color: #008000;
+border-bottom: 1px solid #b5b3b3;
+    padding: 7px 0px;
+            
+        }        
+        
+        
+        
+        .linkStyle
+        {
+           text-decoration: none
+            
+        }
+         
+         .linkStyleColor
+        {
+             text-decoration: none;
+             margin-left: 85%;
+            
+        }
+        
+         .linkStyleColor2
+        {
+             text-decoration: none;
+             margin-left: 80%;
+            
+        }
+        
+          .linkStyle :hover
+        {
+              font-weight: bold;
+            
+        }
+        
+        
+        .paginationn {
+
+border-radius: 3px;
+    font-size: 12px;
+}
+
+.paginationn ul {
+display: inline-block;
+margin-bottom: 0;
+margin-left: 0;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+
+}
+
+
+.paginationn ul>li {
+display: inline-block;
+position: relative;
+float: left;
+margin-right: 1px;
+background: none;
+margin-top: -8px;
+    top: 0px;
+    left: 0px;
+}
+
+.paginationn ul>li:first-child>span {
+border-left-width: 1px;
+-webkit-border-bottom-left-radius: 4px;
+border-bottom-left-radius: 4px;
+-webkit-border-top-left-radius: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-bottomleft: 4px;
+-moz-border-radius-topleft: 4px;
+
+
+}
+
+.paginationn ul>li>a {
+float: left;
+padding: 0px 10px;
+line-height: 20px;
+text-decoration: none;
+background: #dddddd;
+background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+background: -webkit-linear-gradient(top, #ffffff, #dddddd);
+background: -moz-linear-gradient(top, #ffffff, #dddddd);
+background: -ms-linear-gradient(top, #ffffff, #dddddd);
+background: -o-linear-gradient(top, #ffffff, #dddddd);
+background: linear-gradient(top, #ffffff, #dddddd);
+border: 1px solid #aeadad;
+margin-top: 10px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+   
+
+}
+.paginationn ul>li>a:hover 
+{
+     cursor: pointer;
+    background: #dddddd;
+}
+
+.paginationn ul>.active>a, .paginationn ul>.active>span {
+color: #999;
+cursor: default;
+} 
+
+        
+        
+
+.lginTable
+{
+	background :url('images/loginBG.png'); background-repeat:repeat-x; COLOR: #666; font-weight: normal;border: none;
+	}
+.lginTDBar {
+	background :url('images/lgnBar.png'); background-repeat:repeat-x; COLOR: #fff; FONT-WEIGHT: normal; font-family:  Arial Rounded MT Bold, Century Gothic, Arial, Trebuchet MS, Tw Cen MT, Tahoma; font-size: 10pt; cursor: default
+}
+.loginButt
+{
+	background :url('images/loginbut.png'); background-repeat:repeat-x; 
+	color:#000000;font-family: Trebuchet MS, Tw Cen MT,verdana, tahoma, arial; font-size:8pt; font-weight: bold; border:0;
+	
+}
+.style1 {
+	COLOR: #003300; FONT-WEIGHT: bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 10pt; cursor: default
+}
+.formline1 {
+	background-color:Transparent; color:#fff; font-weight: normal; padding:  2px 2px 2px 2px; font-family: Trebuchet MS, Tahoma, Arial; font-size: 9pt; cursor: default;font-style: italic;
+	
+}
+.formline2 {
+	background-color:Transparent; color:#fff; font-weight: normal; padding:  6px 2px 2px 2px; font-family: Trebuchet MS, Tahoma, Arial; font-size: 9pt; cursor: default;font-style: italic;
+	
+}
+#mainNav {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 20px; LINE-HEIGHT: 20px; MARGIN-TOP: 2px; PADDING-LEFT: 15px; padding-right:2px;  WIDTH: 100%; FLOAT: right; COLOR: #003300; FONT-SIZE: 10px
+}
+.sideutil {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #e9e9e9; MARGIN: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.sideutil2 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6px; BACKGROUND-COLOR: #e9e9e9; MARGIN: 3px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px
+}
+.sideutil1 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #fff; MARGIN: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.tool {
+	BORDER-BOTTOM: white 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 5px; PADDING-TOP: 3px
+}
+.tool {
+	VERTICAL-ALIGN: middle
+}
+.contentMain1
+{
+	color:#666666; background-color: Transparent; font-weight:  normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 9pt; cursor: default;
+	PADDING-BOTTOM: 0.52em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px;
+	}
+.text-box-login {
+	width: 95%;
+	border: darkseagreen 1px solid;
+	padding: 2px;
+}
+.drop-box-login {
+	width: 97%;
+	border: darkseagreen 1px solid;
+	padding: 2px;
+}
+.text-box-disabled {
+	width: 95%;  background-color: #fff;
+	border: 1px solid #E1E1E1;
+	padding: 2px;
+}
+.devBut { text-transform:uppercase; font-size:16px; text-align:center; font-weight:700;  -moz-border-radius: 7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px; border-radius: 7px; background:url('Images/info/inputSend.png') repeat-x center; border:1px solid #666; color:#fff; padding:6px 32px 5px 32px !important; cursor:pointer; }
+.devButSmall {  font-size:13px; text-align:center; font-weight:700;  -moz-border-radius: 7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px; border-radius: 7px; background:url('Images/info/inputSend.png') repeat-x center; border:1px solid #666; color:#fff; padding:6px 32px 5px 32px !important; cursor:pointer; }
+.devButSmallX {  font-size:11px; text-align:center; font-weight:700;  -moz-border-radius: 7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px; border-radius: 7px; background:url('Images/info/inputSend.png') repeat-x center; border:1px solid #666; color:#fff; padding:6px 32px 5px 32px !important; cursor:pointer; }
+.errorClass
+{
+    font-family: Arial, Century Gothic, Verdana; font-size: 8pt; color:Red; padding:3px; background:none;
+}
+.errDv
+{
+    font-family: Arial, Trebuchet MS, Tw Cen MT, Verdana, Arial;
+    font-size: 9pt; color:#b94a48; background-color:#f2dede;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    padding: 3px;
+    width: 95%;
+    margin: 10px auto;  
+}
+
+.gridDiv {
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+.messageFrame
+{
+    
+    
+   color: #468847;
+background-color: #dff0d8;
+border-color: #d6e9c6;
+  padding: 4px 8px;
+margin-bottom: 10px auto;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;  
+   
+   
+
+}
+.errorMessageFrame
+{
+
+    width: 99%; line-height: 18px;
+
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+
+}
+.msgBody
+{
+    text-align:justify;
+    font-family: Verdana, Arial,Trebuchet MS, Tw Cen MT ;
+    font-size: 8pt; color:#333;
+    padding:3px 3px 3px 3px;
+}
+	
+.applyTableframe
+{
+	background-color:#E1FFE1;
+	width: 60%; line-height: 25px;
+	border: 1px solid #438743;text-align: left;
+	padding:2px;
+		
+}	
+.applyTableframe h1 {
+    background-color:#438743;
+	width: 100%; line-height: 28px;
+	border:none;text-align: center;color: #fff;font-size: 13pt;font-weight: bold;
+    margin: 0;
+}
+.xPlugSecondaryTabLite-p {
+  background-image:url('../../images/Master/bGround.png'); background-repeat: repeat;  color:#333333; font-weight: bold; border:1px solid #b2d1b2; padding: 2px 8px 2px 8px; font-family:   Trebuchet MS, Tahoma, Arial ; font-size: 9pt; cursor: default;
+}
+.xPlugSecondaryTabLite-gd{
+  background-image:url('../../images/Master/bg2.png'); background-repeat: repeat;  color:#ffffff; font-weight: bold; border:1px solid #b2d1b2; padding: 2px 8px 2px 8px; font-family:   Trebuchet MS, Tahoma, Arial ; font-size: 9pt; cursor: default;
+}
+.xPlugSecondaryTabLite-gd{
+  background-image:url('../../images/Master/bg2.png'); background-repeat: repeat;  color:#ffffff; font-weight: bold; border:1px solid #b2d1b2; padding: 2px 8px 2px 8px; font-family:   Trebuchet MS, Tahoma, Arial ; font-size: 9pt; cursor: default;
+}
+#util {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: #e9e9e9; FONT-SIZE: 75%; PADDING-TOP: 4px
+	
+}
+#util INPUT {
+	BORDER-BOTTOM: #a4a4a4 1px solid; BORDER-LEFT: #a4a4a4 1px solid; FONT-SIZE: 75%; BORDER-TOP: #a4a4a4 1px solid; BORDER-RIGHT: #a4a4a4 1px solid
+}
+.mod {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffffff; MARGIN: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.top {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #bcbcbc; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: white; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+.mini {
+	BORDER-BOTTOM: #dbdbdb 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.minicont {
+	BORDER-BOTTOM: #dbdbdb 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 2px; BACKGROUND: #efefef; FONT-SIZE: 90%; PADDING-TOP: 2px
+}
+.mini1 {
+	BORDER-BOTTOM: #dbdbdb 1px solid
+}
+.ad {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid
+}
+.stuff {
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 10px; LINE-HEIGHT: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #dddddd 1px solid; PADDING-TOP: 10px
+}
+.stuff UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.stuff UL LI {
+	LIST-STYLE-IMAGE: url(../../images/dot.gif)
+}
+.stuff H3 {
+	PADDING-BOTTOM: 4px; MARGIN: 3px; PADDING-TOP: 4px
+}
+.current {
+	COLOR: #ee3224; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.current1 {
+	BACKGROUND-COLOR: #999999; PADDING-LEFT: 3px; COLOR: #ffffff; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.line {
+	BORDER-BOTTOM: #dddddd 1px solid
+}
+.formline {
+	background-color:Transparent; color:#666666; font-weight: normal; padding: 2px 8px 2px 8px; font-family: Trebuchet MS, Tahoma, Arial; font-size: 9pt; cursor: default;
+	
+}
+.accToggler {
+	PADDING-BOTTOM: 3px; MARGIN: 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND: #fff; COLOR: #333; FONT-SIZE: 10px; BORDER-TOP: #ddd 1px solid; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+.accContent {
+	MARGIN: 0px auto; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-SIZE: 10px
+}
+.style1x {
+	COLOR: #ffffff; FONT-WEIGHT: bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 10pt; cursor: default
+}
+.sideutil1 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #fff; MARGIN: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.sideutilContent {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #fff; margin-top:2px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+
+#contentmgr
+{
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 3px; LINE-HEIGHT: 25px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #666666; FONT-SIZE: 10px; PADDING-TOP: 3px;
+	}
+.contentSub
+{
+	BORDER-BOTTOM: #003300 1px solid; PADDING-BOTTOM: 3px; MARGIN: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #003300; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 3px;
+	}
+.contentSubPlain
+{
+	 PADDING-BOTTOM: 3px; MARGIN: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #cccccc;  font-family:Trebuchet MS, Tw Cen MT, Tahoma, Arial ; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 3px;
+	}
+.contentHd
+{
+	
+	
+	}
+	
+.contentMain1
+{
+	color:#666666; background-color: Transparent; font-weight:  normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 9pt; cursor: default;
+	PADDING-BOTTOM: 0.52em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px;
+	}
+	
+
+.Input2 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 8pt;
+	width: 100%;
+	border: 2px solid #E1E1E1;
+	padding: 3px;
+}
+.Input {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 10pt; color:#666666;
+	width: 100%;padding: 2px 2px 2px 2px;
+	border: 1px solid #E1E1E1;
+}
+.InputX2 {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 13pt; color:#666666;line-height: 25px;
+	width: 100%;padding: 2px 2px 2px 2px;
+	border: 1px solid #E1E1E1;
+}
+.InputX2Disabled {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;background-color: lightgray;
+	font-size: 13pt; color:#666666;line-height: 25px;
+	width: 100%;padding: 2px 2px 2px 2px;
+	border: 1px solid #E1E1E1;
+}
+.Input3 {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 10pt; color:#666666;
+	width: 100%;padding: 0px 2px 0px 2px;
+	border: 1px solid #E1E1E1;
+}
+.filInput {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 10pt; color:#666666;
+	width: 100%;padding: 2px 2px 2px 2px;
+	border: 1px solid #E1E1E1;
+}
+.ddlInput {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 10pt; color:#666666;
+	width: 100%;
+	border: 1px solid #E1E1E1;
+}
+.ddlInputX2 {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 13pt; color:#666666;line-height: 25px;
+	width: 100%;
+	border: 1px solid #E1E1E1;
+}
+.Input_x {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 8pt; color:#666666;
+	width: 100%;padding: 2px 2px 2px 2px;
+	border: 1px solid #E1E1E1;
+}
+.ddlInput_x {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 8pt; color:#666666;
+	width: 100%;
+	border: 1px solid #E1E1E1;
+}
+
+.errorText1 
+{
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial; font-size: 9pt; color: Red
+	
+	}
+.stockTdH
+{
+	background-color:#ffff99; font-family:Trebuchet MS, Tw Cen MT, Verdana, Arial; font-size:10pt;
+	font-weight:bold
+	}
+	
+.stockTdC
+{
+	background-color:#ffff99; font-family:Trebuchet MS, Tw Cen MT, Verdana, Arial; font-size:9pt;
+	font-weight: normal;
+	}
+.tbHeader
+{
+	 background-color:#fbcfc8; 
+	 vertical-align:middle; font-family: Trebuchet MS, Tw Cen MT, Arial,Georgia, Verdana; font-size:9pt; font-weight:bold;
+	color: #000000; height:12px;
+}
+.xPlugTextAll {font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size: 9pt; color: #666666}
+.xPlugTextAll_Err {font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size: 9pt; color: #666666; text-align:left;}
+.xPlugTextAll_x {font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size: 8pt;color: rgba(47, 47, 47, 0.8);padding: 0px 5px;}
+.xPlugTextAll_xx {font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size: 9pt; color: #666}
+.xPlugTextAll_xxx {font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size: 9pt;color: #666; font-weight:bold}
+.xPlugTextLabel {font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size: 8pt;color: rgba(47, 47, 47, 0.8);padding: 0px 5px;}
+
+
+.xPlugTextAll_x.gridHeader{ padding: 5px;}
+
+
+.mxTabBG
+{	
+	height:20px;
+	font-family: Trebuchet MS, Tahoma, Arial, Garamond, Verdana, Helvetica, sans-serif;
+	font-size: 12px;  font-weight:bold;
+	white-space:nowrap;
+	margin:0px 1px 0px 0px;
+	 padding: 0px 1px  0px  1px;  color:#ffffff;
+	 background :url(tabline.png); background-repeat: repeat; background-position: center;
+	   /*background-color: #fbcfc8; background-repeat: repeat-x; */
+ 
+	
+  }
+  
+  .slipT1 {
+	COLOR: #666666; FONT-WEIGHT: bold; font-family: Tw Cen MT, Trebuchet MS, Tahoma, Arial ; font-size: 25pt; cursor: default; vertical-align:middle;
+}
+.slipTd
+{
+	 background-color:#ffff99; color:#999; font-family:Trebuchet MS, Tw Cen MT, Verdana, Arial; font-size:10pt;
+	font-weight: normal;
+}
+.slipTH
+{
+	 background-color:#ffff99; color:#999; font-family:Trebuchet MS, Tw Cen MT, Verdana, Arial; font-size:13pt;
+	font-weight: normal;
+	}
+.mTDBar {
+	background-color:#DBE8F3; COLOR: #003300; FONT-WEIGHT: bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 10pt; cursor: default
+}
+.style2 {
+	COLOR: #ee3224; FONT-WEIGHT: normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 9pt; text-decoration:underline; cursor: default
+}
+.pathFrame
+{
+	border: 1px solid #fbcfc8;
+	background-color: #FFFFFF;
+}
+.cpButton {
+	color:#000066;font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size:9pt; font-weight:normal;
+	border:solid #666666 1px; text-decoration:none;
+	width: 152px;
+}
+
+.lnkButton
+{
+	background-color:Transparent; 
+	font-size:9pt; font-weight:normal; padding: 2px 2px 2px 2px;
+	font-family: Trebuchet MS, Tw Cen MT, Verdana; 
+	color:#019934
+}
+.subTDBar {
+	COLOR: #666; background-color:#ffffcc; border:solid 1px #ffcc99; FONT-WEIGHT: bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 9pt; cursor: default
+}
+.mTbar {
+   COLOR: #666; background-color:#e1ffe1; border:solid 1px #438743; FONT-WEIGHT: normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 8pt; cursor: default
+}
+.mTbarPlain {
+   background-color:#fff; color:#fff; font-weight: bold; border:1px solid #438743; font-family:Trebuchet MS, Tahoma, Arial; font-size: 9pt; cursor: default;
+}
+.gridRowAlt {
+   COLOR: #666; background-color:#f8f8f8; border:solid 1px #bbb; FONT-WEIGHT: normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 7pt; cursor: default
+}
+.gridRowItem {
+   background-color:#fdfffc; color:#666; font-weight: normal; font-family:Trebuchet MS, Tahoma, Arial; cursor: default;
+}
+
+.gridRowItem td 
+{
+    padding:2px 0px
+    
+}
+
+.alternatingRowStyle td {
+      padding: 2px 0px;
+  }  
+/*
+.gridRowAlt td 
+{
+    padding:5px 0px
+    
+}
+ 
+*/
+
+.gridRowHd {
+   COLOR: #333; background-color:#e4f1fc; FONT-WEIGHT: bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 8pt; cursor: default
+}
+
+.gridRowAltX {
+   COLOR: #666; background-color:#f8f8f8; border:solid 1px #bbb; FONT-WEIGHT: normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 10pt; cursor: default
+}
+.gridRowItemX {
+   background-color:#fff; color:#666; font-weight: normal; font-family:Trebuchet MS, Tahoma, Arial; font-size: 10pt; cursor: default;
+}
+.gridRowHdX {
+   COLOR: #333; background-color:#e4f1fc; FONT-WEIGHT: bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 10pt; cursor: default
+}
+
+
+.subTDBar {
+	COLOR: #666; background-color:#ffffcc; border:solid 1px #ffcc99; FONT-WEIGHT: bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 9pt; cursor: default
+}
+	
+.contentMain1Sub
+{
+	color:#333; background-color: Transparent; font-weight:  bold; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 10pt; cursor: default;
+	PADDING-BOTTOM: 0.52em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; text-align:justify; font-style:italic;
+	}
+.contentmgr2
+{
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 3px; LINE-HEIGHT: 25px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #666666; FONT-SIZE: 10px; PADDING-TOP: 5px;
+	}
+	
+.formline3 {
+	background-color:Transparent; padding:  2px 8px 2px 4px; cursor: default;
+	
+}
+.formline4 {
+	background-color:Transparent; padding:  2px 22px 2px 4px; cursor: default;
+	
+}
+.formlinex {
+	background-color:Transparent; color:#fff; font-weight: normal; padding: 0px 8px 0px 8px; font-family: Trebuchet MS, Tahoma, Arial; font-size: 9pt; cursor: default;
+	
+}
+.formliney {
+	background-color:Transparent; color:#666666; font-weight: normal; padding: 0px 8px 0px 8px; font-family: Trebuchet MS, Tahoma, Arial; font-size: 9pt; cursor: default;
+	
+}
+.contentSubRed
+{
+	  PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: Red; FONT-SIZE: 12px; font-family:Verdana, Arial; FONT-WEIGHT: bold;
+	}
+.contentSubNorm
+{
+	  PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #003300; FONT-SIZE: 12px; font-family:Verdana, Arial; FONT-WEIGHT: bold;
+	}
+.jobPositionDetail {
+   COLOR: #666; background-color:#e4f1fc; border:solid 1px #438743; FONT-WEIGHT: normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial ; font-size: 7pt;cursor: default; z-index:100; position:relative
+}
+.modalBackground
+{background-color:Gray;filter:alpha(opacity=90);opacity:0.9;}
+.butPop {
+   COLOR: #666; background-color:#fff; border:solid 1px #ccc; FONT-WEIGHT: normal; font-family: Trebuchet MS, Tw Cen MT, Tahoma, Arial; font-size: 8pt; cursor: hand; width:94px; 
+height:23px
+}
+.single-form-display
+{
+	
+	 margin: 10px auto;
+	width:35%;
+	background-color:#f0f4ef;  -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; padding: 10px;
+
+	}
+.jobRoleDescription {
+    padding: 2px; font-size: 9pt; background: transparent;font-weight: bold;color: red ; font-style:normal
+}
+.invoiceLabelTitle {
+	font-family:  Tw Cen MT, Verdana, Arial;
+	font-size: 8pt; color:#666;
+	padding: 2px;text-align: left;
+	border: none;
+}
+.invoiceLabel {
+	font-family:  Trebuchet MS, Tw Cen MT, Verdana, Arial;
+	font-size: 9pt; color:#438743; text-align: left;
+	width: 95%;padding: 2px;
+	border: none;
+}
+.invoiceDivider {
+    border-bottom: 1px solid #ccc;text-align: left;
+}
+
+
+
+.lognew
+{
+    margin-left: -20px;
+   
+  }
+  
+  
+  
+  
+  
+.Grid {background-color: #fff; margin: 5px 0 10px 0;  border-collapse:collapse; font-family:Calibri; color: #474747;}
+.Grid td {
+      padding: 2px;
+      border: solid 1px #c1c1c1; }
+.Grid th  {
+      padding : 4px 2px;
+     
+     
+      
+      font-size: 0.9em;
+      background: none repeat scroll 0% 0% #EAF4E6;
+     color: #008000;
+      border-bottom: 1px solid #B5B3B3;
+      
+      
+      
+       }
+.Grid .alt {
+      background: #fcfcfc; }
+
+.Grid .pgr table { margin: 3px 0; }
+.Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
+.Grid .pgr a { color: Gray; text-decoration: none; }
+.Grid .pgr a:hover { color: #000; text-decoration: none; }
+
+
+ 

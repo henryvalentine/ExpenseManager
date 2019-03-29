@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="KPortal.Master.cs" Inherits="ExpenseManager.KPortal" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title>Expense Manager Portal</title>
+	<asp:ContentPlaceHolder id="head" runat="server">
+		<script src="Scripts/GridCheckbox.js" type="text/javascript"></script>
+	</asp:ContentPlaceHolder>
+    <link href="App_Themes/Default/ajaxCalender.css" rel="stylesheet" type="text/css" />
+	<link href="App_Themes/Default/portal.css" rel="stylesheet" type="text/css" />
+	<link href="App_Themes/Default/tab.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Default/ControlStyles.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Default/xPlug_reset.css" rel="stylesheet" type="text/css" />
+   
+    <script type="text/javascript" src="Scripts/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" >
+    $(document).ready(function () {
+        $(".account").click(function () {
+            var X = $(this).attr('id');
+
+            if (X == 1) {
+                $(".menusub").hide();
+                $(this).attr('id', '0');
+            }
+            else {
+
+                $(".menusub").show();
+                $(this).attr('id', '1');
+            }
+
+        });
+
+        //Mouseup textarea false
+        $(".menusub").mouseup(function () {
+            return false;
+        });
+        $(".account").mouseup(function () {
+            return false;
+        });
+
+
+        //Textarea without editing.
+        $(document).mouseup(function () {
+            $(".menusub").hide();
+            $(".account").attr('id', '');
+        });
+
+    });
+	
+	</script>
+    <style type="text/css">
+	  .adjustedZIndex {
+			z-index: 10000;
+		}
+		
+	</style>
+	
+</head>
+<body>
+    <form id="form1" runat="server">
+	<div>
+		<ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" EnablePageMethods="True" AsyncPostBackTimeout="2000" runat="server" EnablePartialRendering="true">
+			<Scripts >
+				<asp:ScriptReference Path="~/Scripts/jquery-2.1.0.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.validate.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.formatCurrency-1.4.0.min.js" />
+                <asp:ScriptReference Path="~/Scripts/xpenseManagerNumberToWord.js" />
+                <asp:ScriptReference Path="~/Scripts/xpenseManagerDateValidator.js" />
+                <asp:ScriptReference Path="~/Scripts/accounting.js" />
+                <asp:ScriptReference Path="~/Scripts/xpenseManager.js" />
+                <asp:ScriptReference Path="~/Scripts/multivoucher.js" />
+		    </Scripts>
+        </ajaxToolkit:ToolkitScriptManager>
+   </div>
+	
+       <!-- <div class="tophead">
+<div class="topheadlogo">
+<img src="images/swiftlogo.png" />
+
+</div>
+
+inlog ends here
+
+</div>--->
+        
+
+		<div class="head">
+			<div class="title" style="display:inline;   padding-left: 9px">
+                <img src="App_Themes/Default/Images/logo2.png" alt="exp_man_logo"/>
+			</div>
+			<div class="loginDisplay">
+				<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+					<AnonymousTemplate>
+						[ <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+					</AnonymousTemplate>
+					<LoggedInTemplate>
+						Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+						[ <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Log Out</a> ]
+					</LoggedInTemplate>
+				</asp:LoginView>
+				<br/><br/><br/>
+               <i><asp:SiteMapPath ID="SiteMapPath1"  runat="server"><RootNodeTemplate></RootNodeTemplate></asp:SiteMapPath></i> 
+             </div>
+              <div class="containerDiv">
+                 <asp:Menu ID="NavigationMenu" runat="server" EnableViewState="false" CssClass="menu" IncludeStyleBlock="false" Orientation="Horizontal"  OnMenuItemDataBound="topMenu_MenuItemDataBound" DynamicMenuStyle-CssClass="adjustedZIndex" StaticDisplayLevels="1"  DynamicHorizontalOffset="3" StaticSubMenuIndent="10px" DataSourceID="SiteMapDataSource1">
+					<StaticMenuStyle  />
+					<StaticMenuItemStyle CssClass="MainBg"  />
+                     <StaticHoverStyle CssClass="menuItemHover" />
+                    <StaticSelectedStyle CssClass="MainBgSelected" />
+                    
+                      <LevelSubMenuStyles>
+						<asp:SubMenuStyle  Font-Underline="False" Font-Size="8pt" />
+					</LevelSubMenuStyles>
+					<DynamicHoverStyle CssClass="MainHover" />
+					<DynamicMenuStyle  CssClass="dynamicMenu"/>
+					<DynamicSelectedStyle CssClass="dynamicSelected" />
+					<DynamicMenuItemStyle  CssClass="dynamicItem" />
+					<StaticHoverStyle CssClass="dynamicHover"/>
+				</asp:Menu>   
+            </div>
+            </div>
+            <div>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" SiteMapProvider="MySqlSiteMapProvider" ShowStartingNode="false"/>
+            </div>
+				
+         
+	    <div class="main">
+		    <asp:ContentPlaceHolder ID="MainContent" OnPreRender="getRef" runat="server"/>
+		</div>
+		<div class="clear">
+		</div>
+	
+	
+    
+   
+    
+    <div class="footer">
+	 
+	</div>
+   </form>
+    
+ </body>
+
+</html>
