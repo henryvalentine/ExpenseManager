@@ -1,0 +1,84 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.csprojResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.csprojResolveAssemblyReference.cache
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\XPLUG.WEBTOOLS.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.csprojResolveAssemblyReference.cache
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.csprojResolveAssemblyReference.cache
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.csprojResolveAssemblyReference.cache
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessManager.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\XPLUG.WEBTOOLS.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\ExpenseManager.EF.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObjectMapper.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\bin\Debug\xPlug.BusinessObject.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessManager\obj\Debug\xPlug.BusinessManager.pdb

@@ -1,0 +1,32 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessService.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessService.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\kPortal.CoreUtilities.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\bin\Release\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\obj\Release\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\obj\Release\xPlug.BusinessService.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessService\obj\Release\xPlug.BusinessService.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessService.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessService.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\kPortal.CoreUtilities.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\bin\Release\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\obj\Release\xPlug.BusinessService.csprojResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\obj\Release\xPlug.BusinessService.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessService\obj\Release\xPlug.BusinessService.pdb

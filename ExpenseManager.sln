@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager", "ExpenseManager\ExpenseManager.csproj", "{871721C2-AA8D-47B9-8BF3-4AFEA5AE3ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPlug.BusinessManager", "xPlug.BusinessManager\xPlug.BusinessManager.csproj", "{AD8D4C2B-22FD-4509-ADAB-250F75CF7151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPlug.BusinessObject", "xPlug.BusinessObject\xPlug.BusinessObject.csproj", "{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPlug.BusinessObjectMapper", "xPlug.BusinessObjectMapper\xPlug.BusinessObjectMapper.csproj", "{30BACFC3-DC2C-4D97-8A2B-3399E2544DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPlug.BusinessService", "xPlug.BusinessService\xPlug.BusinessService.csproj", "{DE5DEB16-0EB6-48EF-9BFC-BEFDCED6FB25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.EF", "ExpenseManager.EF\ExpenseManager.EF.csproj", "{D80AE043-ECCC-4AB7-9125-032CB03EDF43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871721C2-AA8D-47B9-8BF3-4AFEA5AE3ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871721C2-AA8D-47B9-8BF3-4AFEA5AE3ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871721C2-AA8D-47B9-8BF3-4AFEA5AE3ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871721C2-AA8D-47B9-8BF3-4AFEA5AE3ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8D4C2B-22FD-4509-ADAB-250F75CF7151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8D4C2B-22FD-4509-ADAB-250F75CF7151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8D4C2B-22FD-4509-ADAB-250F75CF7151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8D4C2B-22FD-4509-ADAB-250F75CF7151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BACFC3-DC2C-4D97-8A2B-3399E2544DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BACFC3-DC2C-4D97-8A2B-3399E2544DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BACFC3-DC2C-4D97-8A2B-3399E2544DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BACFC3-DC2C-4D97-8A2B-3399E2544DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5DEB16-0EB6-48EF-9BFC-BEFDCED6FB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5DEB16-0EB6-48EF-9BFC-BEFDCED6FB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5DEB16-0EB6-48EF-9BFC-BEFDCED6FB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5DEB16-0EB6-48EF-9BFC-BEFDCED6FB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80AE043-ECCC-4AB7-9125-032CB03EDF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80AE043-ECCC-4AB7-9125-032CB03EDF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80AE043-ECCC-4AB7-9125-032CB03EDF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80AE043-ECCC-4AB7-9125-032CB03EDF43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

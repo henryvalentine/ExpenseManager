@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30BACFC3-DC2C-4D97-8A2B-3399E2544DD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>xPlug.BusinessObjectMapper</RootNamespace>
+    <AssemblyName>xPlug.BusinessObjectMapper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XPLUG.WEBTOOLS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Developer\Documents\Google Talk Received Files\Dll-1\XPLUG.WEBTOOLS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASPBusinessObjectMapper\AccountsHeadMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\AssetCategoryMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\AssetTypeMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\BankMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\BeneficiaryMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\BeneficiaryTypeMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\ChequeMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\DepartmentMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\ExpenseCategoryMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\ExpenseItemMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\ExpenseTransactionMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\ExpenseTransactionPaymentHistoryMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\ExpenseTransactionPaymentMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\ExpenseTypeMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\FixedAssetMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\LiquidAssetMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\PaymentModeMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\PaymentVoucherNumberMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\StaffUserMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\TransactionItemMapper.cs" />
+    <Compile Include="ASPBusinessObjectMapper\UnitMapper.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseManager.EF\ExpenseManager.EF.csproj">
+      <Project>{D80AE043-ECCC-4AB7-9125-032CB03EDF43}</Project>
+      <Name>ExpenseManager.EF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xPlug.BusinessObject\xPlug.BusinessObject.csproj">
+      <Project>{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}</Project>
+      <Name>xPlug.BusinessObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.core.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

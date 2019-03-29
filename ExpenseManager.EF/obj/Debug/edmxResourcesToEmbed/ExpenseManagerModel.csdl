@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExpenseManagerDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="ExpenseManagerDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AccountsHeads" EntityType="ExpenseManagerDBModel.AccountsHead" />
+    <EntitySet Name="AssetCategories" EntityType="ExpenseManagerDBModel.AssetCategory" />
+    <EntitySet Name="AssetTypes" EntityType="ExpenseManagerDBModel.AssetType" />
+    <EntitySet Name="Banks" EntityType="ExpenseManagerDBModel.Bank" />
+    <EntitySet Name="Beneficiaries" EntityType="ExpenseManagerDBModel.Beneficiary" />
+    <EntitySet Name="BeneficiaryTypes" EntityType="ExpenseManagerDBModel.BeneficiaryType" />
+    <EntitySet Name="Cheques" EntityType="ExpenseManagerDBModel.Cheque" />
+    <EntitySet Name="Departments" EntityType="ExpenseManagerDBModel.Department" />
+    <EntitySet Name="ExpenseCategories" EntityType="ExpenseManagerDBModel.ExpenseCategory" />
+    <EntitySet Name="ExpenseItems" EntityType="ExpenseManagerDBModel.ExpenseItem" />
+    <EntitySet Name="ExpenseTransactions" EntityType="ExpenseManagerDBModel.ExpenseTransaction" />
+    <EntitySet Name="ExpenseTransactionPayments" EntityType="ExpenseManagerDBModel.ExpenseTransactionPayment" />
+    <EntitySet Name="ExpenseTransactionPaymentHistories" EntityType="ExpenseManagerDBModel.ExpenseTransactionPaymentHistory" />
+    <EntitySet Name="ExpenseTypes" EntityType="ExpenseManagerDBModel.ExpenseType" />
+    <EntitySet Name="FixedAssets" EntityType="ExpenseManagerDBModel.FixedAsset" />
+    <EntitySet Name="LiquidAssets" EntityType="ExpenseManagerDBModel.LiquidAsset" />
+    <EntitySet Name="PaymentModes" EntityType="ExpenseManagerDBModel.PaymentMode" />
+    <EntitySet Name="PaymentVoucherNumbers" EntityType="ExpenseManagerDBModel.PaymentVoucherNumber" />
+    <EntitySet Name="StaffUsers" EntityType="ExpenseManagerDBModel.StaffUser" />
+    <EntitySet Name="TransactionItems" EntityType="ExpenseManagerDBModel.TransactionItem" />
+    <EntitySet Name="Units" EntityType="ExpenseManagerDBModel.Unit" />
+    <AssociationSet Name="FK_AccountsHead_ExpenseCategory" Association="ExpenseManagerDBModel.FK_AccountsHead_ExpenseCategory">
+      <End Role="ExpenseCategory" EntitySet="ExpenseCategories" />
+      <End Role="AccountsHead" EntitySet="AccountsHeads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseItem_AccountsHead" Association="ExpenseManagerDBModel.FK_ExpenseItem_AccountsHead">
+      <End Role="AccountsHead" EntitySet="AccountsHeads" />
+      <End Role="ExpenseItem" EntitySet="ExpenseItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AssetType_AssetCategory" Association="ExpenseManagerDBModel.FK_AssetType_AssetCategory">
+      <End Role="AssetCategory" EntitySet="AssetCategories" />
+      <End Role="AssetType" EntitySet="AssetTypes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FixedAsset_AssetCategory" Association="ExpenseManagerDBModel.FK_FixedAsset_AssetCategory">
+      <End Role="AssetCategory" EntitySet="AssetCategories" />
+      <End Role="FixedAsset" EntitySet="FixedAssets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LiquidAsset_AssetCategory" Association="ExpenseManagerDBModel.FK_LiquidAsset_AssetCategory">
+      <End Role="AssetCategory" EntitySet="AssetCategories" />
+      <End Role="LiquidAsset" EntitySet="LiquidAssets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FixedAsset_AssetType" Association="ExpenseManagerDBModel.FK_FixedAsset_AssetType">
+      <End Role="AssetType" EntitySet="AssetTypes" />
+      <End Role="FixedAsset" EntitySet="FixedAssets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LiquidAsset_AssetType" Association="ExpenseManagerDBModel.FK_LiquidAsset_AssetType">
+      <End Role="AssetType" EntitySet="AssetTypes" />
+      <End Role="LiquidAsset" EntitySet="LiquidAssets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cheque_Bank" Association="ExpenseManagerDBModel.FK_Cheque_Bank">
+      <End Role="Bank" EntitySet="Banks" />
+      <End Role="Cheque" EntitySet="Cheques" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Beneficiary_BeneficiaryType" Association="ExpenseManagerDBModel.FK_Beneficiary_BeneficiaryType">
+      <End Role="BeneficiaryType" EntitySet="BeneficiaryTypes" />
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Beneficiary_Department" Association="ExpenseManagerDBModel.FK_Beneficiary_Department">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Beneficiary_Unit" Association="ExpenseManagerDBModel.FK_Beneficiary_Unit">
+      <End Role="Unit" EntitySet="Units" />
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransaction_Beneficiary" Association="ExpenseManagerDBModel.FK_ExpenseTransaction_Beneficiary">
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+      <End Role="ExpenseTransaction" EntitySet="ExpenseTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransactionPayment_Beneficiary" Association="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_Beneficiary">
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+      <End Role="ExpenseTransactionPayment" EntitySet="ExpenseTransactionPayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransactionPaymentHistory_Beneficiary" Association="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_Beneficiary">
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+      <End Role="ExpenseTransactionPaymentHistory" EntitySet="ExpenseTransactionPaymentHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StaffUser_Beneficiary" Association="ExpenseManagerDBModel.FK_StaffUser_Beneficiary">
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+      <End Role="StaffUser" EntitySet="StaffUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransaction_BeneficiaryType" Association="ExpenseManagerDBModel.FK_ExpenseTransaction_BeneficiaryType">
+      <End Role="BeneficiaryType" EntitySet="BeneficiaryTypes" />
+      <End Role="ExpenseTransaction" EntitySet="ExpenseTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cheque_ExpenseTransactionPaymentHistory" Association="ExpenseManagerDBModel.FK_Cheque_ExpenseTransactionPaymentHistory">
+      <End Role="ExpenseTransactionPaymentHistory" EntitySet="ExpenseTransactionPaymentHistories" />
+      <End Role="Cheque" EntitySet="Cheques" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransaction_Department" Association="ExpenseManagerDBModel.FK_ExpenseTransaction_Department">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="ExpenseTransaction" EntitySet="ExpenseTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransactionPayment_Department" Association="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_Department">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="ExpenseTransactionPayment" EntitySet="ExpenseTransactionPayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Unit_Department" Association="ExpenseManagerDBModel.FK_Unit_Department">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Unit" EntitySet="Units" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseItem_ExpenseCategory" Association="ExpenseManagerDBModel.FK_ExpenseItem_ExpenseCategory">
+      <End Role="ExpenseCategory" EntitySet="ExpenseCategories" />
+      <End Role="ExpenseItem" EntitySet="ExpenseItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionItem_ExpenseCategory" Association="ExpenseManagerDBModel.FK_TransactionItem_ExpenseCategory">
+      <End Role="ExpenseCategory" EntitySet="ExpenseCategories" />
+      <End Role="TransactionItem" EntitySet="TransactionItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionItem_ExpenseItem" Association="ExpenseManagerDBModel.FK_TransactionItem_ExpenseItem">
+      <End Role="ExpenseItem" EntitySet="ExpenseItems" />
+      <End Role="TransactionItem" EntitySet="TransactionItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransactionPayment_ExpenseTransaction" Association="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_ExpenseTransaction">
+      <End Role="ExpenseTransaction" EntitySet="ExpenseTransactions" />
+      <End Role="ExpenseTransactionPayment" EntitySet="ExpenseTransactionPayments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransactionPaymentHistory_ExpenseTransaction" Association="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_ExpenseTransaction">
+      <End Role="ExpenseTransaction" EntitySet="ExpenseTransactions" />
+      <End Role="ExpenseTransactionPaymentHistory" EntitySet="ExpenseTransactionPaymentHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionItem_ExpenseTransaction" Association="ExpenseManagerDBModel.FK_TransactionItem_ExpenseTransaction">
+      <End Role="ExpenseTransaction" EntitySet="ExpenseTransactions" />
+      <End Role="TransactionItem" EntitySet="TransactionItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransactionPaymentHistory_ExpenseTransactionPayment" Association="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_ExpenseTransactionPayment">
+      <End Role="ExpenseTransactionPayment" EntitySet="ExpenseTransactionPayments" />
+      <End Role="ExpenseTransactionPaymentHistory" EntitySet="ExpenseTransactionPaymentHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseTransactionPaymentHistory_PaymentMode" Association="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_PaymentMode">
+      <End Role="PaymentMode" EntitySet="PaymentModes" />
+      <End Role="ExpenseTransactionPaymentHistory" EntitySet="ExpenseTransactionPaymentHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionItem_ExpenseType" Association="ExpenseManagerDBModel.FK_TransactionItem_ExpenseType">
+      <End Role="ExpenseType" EntitySet="ExpenseTypes" />
+      <End Role="TransactionItem" EntitySet="TransactionItems" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AccountsHead">
+    <Key>
+      <PropertyRef Name="AccountsHeadId" />
+    </Key>
+    <Property Name="AccountsHeadId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseCategoryId" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="400" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ExpenseCategory" Relationship="ExpenseManagerDBModel.FK_AccountsHead_ExpenseCategory" FromRole="AccountsHead" ToRole="ExpenseCategory" />
+    <NavigationProperty Name="ExpenseItems" Relationship="ExpenseManagerDBModel.FK_ExpenseItem_AccountsHead" FromRole="AccountsHead" ToRole="ExpenseItem" />
+  </EntityType>
+  <EntityType Name="AssetCategory">
+    <Key>
+      <PropertyRef Name="AssetCategoryId" />
+    </Key>
+    <Property Name="AssetCategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="Int64" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AssetTypes" Relationship="ExpenseManagerDBModel.FK_AssetType_AssetCategory" FromRole="AssetCategory" ToRole="AssetType" />
+    <NavigationProperty Name="FixedAssets" Relationship="ExpenseManagerDBModel.FK_FixedAsset_AssetCategory" FromRole="AssetCategory" ToRole="FixedAsset" />
+    <NavigationProperty Name="LiquidAssets" Relationship="ExpenseManagerDBModel.FK_LiquidAsset_AssetCategory" FromRole="AssetCategory" ToRole="LiquidAsset" />
+  </EntityType>
+  <EntityType Name="AssetType">
+    <Key>
+      <PropertyRef Name="AssetTypeId" />
+    </Key>
+    <Property Name="AssetTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AssetCategoryId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="Int64" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AssetCategory" Relationship="ExpenseManagerDBModel.FK_AssetType_AssetCategory" FromRole="AssetType" ToRole="AssetCategory" />
+    <NavigationProperty Name="FixedAssets" Relationship="ExpenseManagerDBModel.FK_FixedAsset_AssetType" FromRole="AssetType" ToRole="FixedAsset" />
+    <NavigationProperty Name="LiquidAssets" Relationship="ExpenseManagerDBModel.FK_LiquidAsset_AssetType" FromRole="AssetType" ToRole="LiquidAsset" />
+  </EntityType>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="BankId" />
+    </Key>
+    <Property Name="BankId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BankName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Cheques" Relationship="ExpenseManagerDBModel.FK_Cheque_Bank" FromRole="Bank" ToRole="Cheque" />
+  </EntityType>
+  <EntityType Name="Beneficiary">
+    <Key>
+      <PropertyRef Name="BeneficiaryId" />
+    </Key>
+    <Property Name="BeneficiaryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="GSMNO2" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="GSMNO1" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="DateRegistered" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TimeRegistered" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Sex" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" />
+    <Property Name="UnitId" Type="Int32" Nullable="false" />
+    <Property Name="BeneficiaryTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BeneficiaryType" Relationship="ExpenseManagerDBModel.FK_Beneficiary_BeneficiaryType" FromRole="Beneficiary" ToRole="BeneficiaryType" />
+    <NavigationProperty Name="Department" Relationship="ExpenseManagerDBModel.FK_Beneficiary_Department" FromRole="Beneficiary" ToRole="Department" />
+    <NavigationProperty Name="Unit" Relationship="ExpenseManagerDBModel.FK_Beneficiary_Unit" FromRole="Beneficiary" ToRole="Unit" />
+    <NavigationProperty Name="ExpenseTransactions" Relationship="ExpenseManagerDBModel.FK_ExpenseTransaction_Beneficiary" FromRole="Beneficiary" ToRole="ExpenseTransaction" />
+    <NavigationProperty Name="ExpenseTransactionPayments" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_Beneficiary" FromRole="Beneficiary" ToRole="ExpenseTransactionPayment" />
+    <NavigationProperty Name="ExpenseTransactionPaymentHistories" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_Beneficiary" FromRole="Beneficiary" ToRole="ExpenseTransactionPaymentHistory" />
+    <NavigationProperty Name="StaffUsers" Relationship="ExpenseManagerDBModel.FK_StaffUser_Beneficiary" FromRole="Beneficiary" ToRole="StaffUser" />
+  </EntityType>
+  <EntityType Name="BeneficiaryType">
+    <Key>
+      <PropertyRef Name="BeneficiaryTypeId" />
+    </Key>
+    <Property Name="BeneficiaryTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Beneficiaries" Relationship="ExpenseManagerDBModel.FK_Beneficiary_BeneficiaryType" FromRole="BeneficiaryType" ToRole="Beneficiary" />
+    <NavigationProperty Name="ExpenseTransactions" Relationship="ExpenseManagerDBModel.FK_ExpenseTransaction_BeneficiaryType" FromRole="BeneficiaryType" ToRole="ExpenseTransaction" />
+  </EntityType>
+  <EntityType Name="Cheque">
+    <Key>
+      <PropertyRef Name="ChequePaymentId" />
+    </Key>
+    <Property Name="ChequePaymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="ChequeNo" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ExpenseTransactionPaymentHistoryId" Type="Int64" Nullable="false" />
+    <Property Name="BankId" Type="Int32" Nullable="false" />
+    <Property Name="ScannedCopy" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Bank" Relationship="ExpenseManagerDBModel.FK_Cheque_Bank" FromRole="Cheque" ToRole="Bank" />
+    <NavigationProperty Name="ExpenseTransactionPaymentHistory" Relationship="ExpenseManagerDBModel.FK_Cheque_ExpenseTransactionPaymentHistory" FromRole="Cheque" ToRole="ExpenseTransactionPaymentHistory" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Beneficiaries" Relationship="ExpenseManagerDBModel.FK_Beneficiary_Department" FromRole="Department" ToRole="Beneficiary" />
+    <NavigationProperty Name="ExpenseTransactions" Relationship="ExpenseManagerDBModel.FK_ExpenseTransaction_Department" FromRole="Department" ToRole="ExpenseTransaction" />
+    <NavigationProperty Name="ExpenseTransactionPayments" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_Department" FromRole="Department" ToRole="ExpenseTransactionPayment" />
+    <NavigationProperty Name="Units" Relationship="ExpenseManagerDBModel.FK_Unit_Department" FromRole="Department" ToRole="Unit" />
+  </EntityType>
+  <EntityType Name="ExpenseCategory">
+    <Key>
+      <PropertyRef Name="ExpenseCategoryId" />
+    </Key>
+    <Property Name="ExpenseCategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AccountsHeads" Relationship="ExpenseManagerDBModel.FK_AccountsHead_ExpenseCategory" FromRole="ExpenseCategory" ToRole="AccountsHead" />
+    <NavigationProperty Name="ExpenseItems" Relationship="ExpenseManagerDBModel.FK_ExpenseItem_ExpenseCategory" FromRole="ExpenseCategory" ToRole="ExpenseItem" />
+    <NavigationProperty Name="TransactionItems" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseCategory" FromRole="ExpenseCategory" ToRole="TransactionItem" />
+  </EntityType>
+  <EntityType Name="ExpenseItem">
+    <Key>
+      <PropertyRef Name="ExpenseItemId" />
+    </Key>
+    <Property Name="ExpenseItemId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseCategoryId" Type="Int32" Nullable="false" />
+    <Property Name="AccountsHeadId" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="400" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AccountsHead" Relationship="ExpenseManagerDBModel.FK_ExpenseItem_AccountsHead" FromRole="ExpenseItem" ToRole="AccountsHead" />
+    <NavigationProperty Name="ExpenseCategory" Relationship="ExpenseManagerDBModel.FK_ExpenseItem_ExpenseCategory" FromRole="ExpenseItem" ToRole="ExpenseCategory" />
+    <NavigationProperty Name="TransactionItems" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseItem" FromRole="ExpenseItem" ToRole="TransactionItem" />
+  </EntityType>
+  <EntityType Name="ExpenseTransaction">
+    <Key>
+      <PropertyRef Name="ExpenseTransactionId" />
+    </Key>
+    <Property Name="ExpenseTransactionId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseTitle" Type="String" Nullable="false" MaxLength="800" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BeneficiaryId" Type="Int32" Nullable="false" />
+    <Property Name="BeneficiaryTypeId" Type="Int32" Nullable="false" />
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" />
+    <Property Name="RegisteredById" Type="Int32" Nullable="false" />
+    <Property Name="TransactionDate" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TransactionTime" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="TotalTransactionAmount" Type="Double" Nullable="false" />
+    <Property Name="ApproverId" Type="Int32" Nullable="false" />
+    <Property Name="DateApproved" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TimeApproved" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TotalApprovedAmount" Type="Double" Nullable="false" />
+    <Property Name="ApproverComment" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Beneficiary" Relationship="ExpenseManagerDBModel.FK_ExpenseTransaction_Beneficiary" FromRole="ExpenseTransaction" ToRole="Beneficiary" />
+    <NavigationProperty Name="BeneficiaryType" Relationship="ExpenseManagerDBModel.FK_ExpenseTransaction_BeneficiaryType" FromRole="ExpenseTransaction" ToRole="BeneficiaryType" />
+    <NavigationProperty Name="Department" Relationship="ExpenseManagerDBModel.FK_ExpenseTransaction_Department" FromRole="ExpenseTransaction" ToRole="Department" />
+    <NavigationProperty Name="ExpenseTransactionPayments" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_ExpenseTransaction" FromRole="ExpenseTransaction" ToRole="ExpenseTransactionPayment" />
+    <NavigationProperty Name="ExpenseTransactionPaymentHistories" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_ExpenseTransaction" FromRole="ExpenseTransaction" ToRole="ExpenseTransactionPaymentHistory" />
+    <NavigationProperty Name="TransactionItems" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseTransaction" FromRole="ExpenseTransaction" ToRole="TransactionItem" />
+  </EntityType>
+  <EntityType Name="ExpenseTransactionPayment">
+    <Key>
+      <PropertyRef Name="ExpenseTransactionPaymentId" />
+    </Key>
+    <Property Name="ExpenseTransactionPaymentId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseTransactionId" Type="Int64" Nullable="false" />
+    <Property Name="TotalAmountPayable" Type="Double" Nullable="false" />
+    <Property Name="Balance" Type="Double" Nullable="false" />
+    <Property Name="LastPaymentDate" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="LastPaymentTime" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="AmountPaid" Type="Double" Nullable="false" />
+    <Property Name="BeneficiaryId" Type="Int32" Nullable="false" />
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Beneficiary" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_Beneficiary" FromRole="ExpenseTransactionPayment" ToRole="Beneficiary" />
+    <NavigationProperty Name="Department" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_Department" FromRole="ExpenseTransactionPayment" ToRole="Department" />
+    <NavigationProperty Name="ExpenseTransaction" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPayment_ExpenseTransaction" FromRole="ExpenseTransactionPayment" ToRole="ExpenseTransaction" />
+    <NavigationProperty Name="ExpenseTransactionPaymentHistories" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_ExpenseTransactionPayment" FromRole="ExpenseTransactionPayment" ToRole="ExpenseTransactionPaymentHistory" />
+  </EntityType>
+  <EntityType Name="ExpenseTransactionPaymentHistory">
+    <Key>
+      <PropertyRef Name="ExpenseTransactionPaymentHistoryId" />
+    </Key>
+    <Property Name="ExpenseTransactionPaymentHistoryId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseTransactionId" Type="Int64" Nullable="false" />
+    <Property Name="AmountPaid" Type="Double" Nullable="false" />
+    <Property Name="PaymentDate" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="PaymentTime" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="PaidById" Type="Int32" Nullable="false" />
+    <Property Name="Comment" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="ExpenseTransactionPaymentId" Type="Int64" Nullable="false" />
+    <Property Name="PaymentModeId" Type="Int32" Nullable="false" />
+    <Property Name="BeneficiaryId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Beneficiary" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_Beneficiary" FromRole="ExpenseTransactionPaymentHistory" ToRole="Beneficiary" />
+    <NavigationProperty Name="Cheques" Relationship="ExpenseManagerDBModel.FK_Cheque_ExpenseTransactionPaymentHistory" FromRole="ExpenseTransactionPaymentHistory" ToRole="Cheque" />
+    <NavigationProperty Name="ExpenseTransaction" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_ExpenseTransaction" FromRole="ExpenseTransactionPaymentHistory" ToRole="ExpenseTransaction" />
+    <NavigationProperty Name="ExpenseTransactionPayment" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_ExpenseTransactionPayment" FromRole="ExpenseTransactionPaymentHistory" ToRole="ExpenseTransactionPayment" />
+    <NavigationProperty Name="PaymentMode" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_PaymentMode" FromRole="ExpenseTransactionPaymentHistory" ToRole="PaymentMode" />
+  </EntityType>
+  <EntityType Name="ExpenseType">
+    <Key>
+      <PropertyRef Name="ExpenseTypeId" />
+    </Key>
+    <Property Name="ExpenseTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TransactionItems" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseType" FromRole="ExpenseType" ToRole="TransactionItem" />
+  </EntityType>
+  <EntityType Name="FixedAsset">
+    <Key>
+      <PropertyRef Name="FixedAssetId" />
+    </Key>
+    <Property Name="FixedAssetId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AssetTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="400" Unicode="true" FixedLength="false" />
+    <Property Name="CostOfPurchase" Type="Double" Nullable="false" />
+    <Property Name="CostOfTransportationAndInstallation" Type="Double" Nullable="false" />
+    <Property Name="DatePurchased" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="ScannedReceipt" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="Model" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Make" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Brand" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="Int64" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="AssetCategoryId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AssetCategory" Relationship="ExpenseManagerDBModel.FK_FixedAsset_AssetCategory" FromRole="FixedAsset" ToRole="AssetCategory" />
+    <NavigationProperty Name="AssetType" Relationship="ExpenseManagerDBModel.FK_FixedAsset_AssetType" FromRole="FixedAsset" ToRole="AssetType" />
+  </EntityType>
+  <EntityType Name="LiquidAsset">
+    <Key>
+      <PropertyRef Name="LiquidAssetId" />
+    </Key>
+    <Property Name="LiquidAssetId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AssetTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="AssetCategoryId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AssetCategory" Relationship="ExpenseManagerDBModel.FK_LiquidAsset_AssetCategory" FromRole="LiquidAsset" ToRole="AssetCategory" />
+    <NavigationProperty Name="AssetType" Relationship="ExpenseManagerDBModel.FK_LiquidAsset_AssetType" FromRole="LiquidAsset" ToRole="AssetType" />
+  </EntityType>
+  <EntityType Name="PaymentMode">
+    <Key>
+      <PropertyRef Name="PaymentModeId" />
+    </Key>
+    <Property Name="PaymentModeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ExpenseTransactionPaymentHistories" Relationship="ExpenseManagerDBModel.FK_ExpenseTransactionPaymentHistory_PaymentMode" FromRole="PaymentMode" ToRole="ExpenseTransactionPaymentHistory" />
+  </EntityType>
+  <EntityType Name="PaymentVoucherNumber">
+    <Key>
+      <PropertyRef Name="PaymentVoucherNumberId" />
+    </Key>
+    <Property Name="PaymentVoucherNumberId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TransactionId" Type="Int64" Nullable="false" />
+    <Property Name="TransactionTotalAmount" Type="Double" Nullable="false" />
+    <Property Name="PaymentDate" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="DateSubmitted" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="StaffUser">
+    <Key>
+      <PropertyRef Name="StaffUserId" />
+    </Key>
+    <Property Name="StaffUserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BeneficiaryId" Type="Int32" Nullable="false" />
+    <Property Name="PortalUserId" Type="Int64" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Beneficiary" Relationship="ExpenseManagerDBModel.FK_StaffUser_Beneficiary" FromRole="StaffUser" ToRole="Beneficiary" />
+  </EntityType>
+  <EntityType Name="TransactionItem">
+    <Key>
+      <PropertyRef Name="TransactionItemId" />
+    </Key>
+    <Property Name="TransactionItemId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpensenseItemId" Type="Int32" Nullable="false" />
+    <Property Name="RequestedQuantity" Type="Int32" Nullable="false" />
+    <Property Name="RequestedUnitPrice" Type="Double" Nullable="false" />
+    <Property Name="ExpenseTransactionId" Type="Int64" Nullable="false" />
+    <Property Name="ExpenseCategoryId" Type="Int32" Nullable="false" />
+    <Property Name="ExpenseTypeId" Type="Int32" Nullable="false" />
+    <Property Name="ApprovedQuantity" Type="Int32" Nullable="false" />
+    <Property Name="ApprovedUnitPrice" Type="Double" Nullable="false" />
+    <Property Name="ApprovedTotalPrice" Type="Double" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ExpenseCategory" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseCategory" FromRole="TransactionItem" ToRole="ExpenseCategory" />
+    <NavigationProperty Name="ExpenseItem" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseItem" FromRole="TransactionItem" ToRole="ExpenseItem" />
+    <NavigationProperty Name="ExpenseTransaction" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseTransaction" FromRole="TransactionItem" ToRole="ExpenseTransaction" />
+    <NavigationProperty Name="ExpenseType" Relationship="ExpenseManagerDBModel.FK_TransactionItem_ExpenseType" FromRole="TransactionItem" ToRole="ExpenseType" />
+  </EntityType>
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="UnitId" />
+    </Key>
+    <Property Name="UnitId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Beneficiaries" Relationship="ExpenseManagerDBModel.FK_Beneficiary_Unit" FromRole="Unit" ToRole="Beneficiary" />
+    <NavigationProperty Name="Department" Relationship="ExpenseManagerDBModel.FK_Unit_Department" FromRole="Unit" ToRole="Department" />
+  </EntityType>
+  <Association Name="FK_AccountsHead_ExpenseCategory">
+    <End Role="ExpenseCategory" Type="ExpenseManagerDBModel.ExpenseCategory" Multiplicity="1" />
+    <End Role="AccountsHead" Type="ExpenseManagerDBModel.AccountsHead" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseCategory">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Principal>
+      <Dependent Role="AccountsHead">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseItem_AccountsHead">
+    <End Role="AccountsHead" Type="ExpenseManagerDBModel.AccountsHead" Multiplicity="1" />
+    <End Role="ExpenseItem" Type="ExpenseManagerDBModel.ExpenseItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountsHead">
+        <PropertyRef Name="AccountsHeadId" />
+      </Principal>
+      <Dependent Role="ExpenseItem">
+        <PropertyRef Name="AccountsHeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AssetType_AssetCategory">
+    <End Role="AssetCategory" Type="ExpenseManagerDBModel.AssetCategory" Multiplicity="1" />
+    <End Role="AssetType" Type="ExpenseManagerDBModel.AssetType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AssetCategory">
+        <PropertyRef Name="AssetCategoryId" />
+      </Principal>
+      <Dependent Role="AssetType">
+        <PropertyRef Name="AssetCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FixedAsset_AssetCategory">
+    <End Role="AssetCategory" Type="ExpenseManagerDBModel.AssetCategory" Multiplicity="1" />
+    <End Role="FixedAsset" Type="ExpenseManagerDBModel.FixedAsset" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AssetCategory">
+        <PropertyRef Name="AssetCategoryId" />
+      </Principal>
+      <Dependent Role="FixedAsset">
+        <PropertyRef Name="AssetCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LiquidAsset_AssetCategory">
+    <End Role="AssetCategory" Type="ExpenseManagerDBModel.AssetCategory" Multiplicity="1" />
+    <End Role="LiquidAsset" Type="ExpenseManagerDBModel.LiquidAsset" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AssetCategory">
+        <PropertyRef Name="AssetCategoryId" />
+      </Principal>
+      <Dependent Role="LiquidAsset">
+        <PropertyRef Name="AssetCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FixedAsset_AssetType">
+    <End Role="AssetType" Type="ExpenseManagerDBModel.AssetType" Multiplicity="1" />
+    <End Role="FixedAsset" Type="ExpenseManagerDBModel.FixedAsset" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AssetType">
+        <PropertyRef Name="AssetTypeId" />
+      </Principal>
+      <Dependent Role="FixedAsset">
+        <PropertyRef Name="AssetTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LiquidAsset_AssetType">
+    <End Role="AssetType" Type="ExpenseManagerDBModel.AssetType" Multiplicity="1" />
+    <End Role="LiquidAsset" Type="ExpenseManagerDBModel.LiquidAsset" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AssetType">
+        <PropertyRef Name="AssetTypeId" />
+      </Principal>
+      <Dependent Role="LiquidAsset">
+        <PropertyRef Name="AssetTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cheque_Bank">
+    <End Role="Bank" Type="ExpenseManagerDBModel.Bank" Multiplicity="1" />
+    <End Role="Cheque" Type="ExpenseManagerDBModel.Cheque" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bank">
+        <PropertyRef Name="BankId" />
+      </Principal>
+      <Dependent Role="Cheque">
+        <PropertyRef Name="BankId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Beneficiary_BeneficiaryType">
+    <End Role="BeneficiaryType" Type="ExpenseManagerDBModel.BeneficiaryType" Multiplicity="1" />
+    <End Role="Beneficiary" Type="ExpenseManagerDBModel.Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BeneficiaryType">
+        <PropertyRef Name="BeneficiaryTypeId" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Beneficiary_Department">
+    <End Role="Department" Type="ExpenseManagerDBModel.Department" Multiplicity="1" />
+    <End Role="Beneficiary" Type="ExpenseManagerDBModel.Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Beneficiary_Unit">
+    <End Role="Unit" Type="ExpenseManagerDBModel.Unit" Multiplicity="1" />
+    <End Role="Beneficiary" Type="ExpenseManagerDBModel.Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="UnitId" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="UnitId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransaction_Beneficiary">
+    <End Role="Beneficiary" Type="ExpenseManagerDBModel.Beneficiary" Multiplicity="1" />
+    <End Role="ExpenseTransaction" Type="ExpenseManagerDBModel.ExpenseTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryId" />
+      </Principal>
+      <Dependent Role="ExpenseTransaction">
+        <PropertyRef Name="BeneficiaryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransactionPayment_Beneficiary">
+    <End Role="Beneficiary" Type="ExpenseManagerDBModel.Beneficiary" Multiplicity="1" />
+    <End Role="ExpenseTransactionPayment" Type="ExpenseManagerDBModel.ExpenseTransactionPayment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryId" />
+      </Principal>
+      <Dependent Role="ExpenseTransactionPayment">
+        <PropertyRef Name="BeneficiaryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransactionPaymentHistory_Beneficiary">
+    <End Role="Beneficiary" Type="ExpenseManagerDBModel.Beneficiary" Multiplicity="1" />
+    <End Role="ExpenseTransactionPaymentHistory" Type="ExpenseManagerDBModel.ExpenseTransactionPaymentHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryId" />
+      </Principal>
+      <Dependent Role="ExpenseTransactionPaymentHistory">
+        <PropertyRef Name="BeneficiaryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StaffUser_Beneficiary">
+    <End Role="Beneficiary" Type="ExpenseManagerDBModel.Beneficiary" Multiplicity="1" />
+    <End Role="StaffUser" Type="ExpenseManagerDBModel.StaffUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryId" />
+      </Principal>
+      <Dependent Role="StaffUser">
+        <PropertyRef Name="BeneficiaryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransaction_BeneficiaryType">
+    <End Role="BeneficiaryType" Type="ExpenseManagerDBModel.BeneficiaryType" Multiplicity="1" />
+    <End Role="ExpenseTransaction" Type="ExpenseManagerDBModel.ExpenseTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BeneficiaryType">
+        <PropertyRef Name="BeneficiaryTypeId" />
+      </Principal>
+      <Dependent Role="ExpenseTransaction">
+        <PropertyRef Name="BeneficiaryTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cheque_ExpenseTransactionPaymentHistory">
+    <End Role="ExpenseTransactionPaymentHistory" Type="ExpenseManagerDBModel.ExpenseTransactionPaymentHistory" Multiplicity="1" />
+    <End Role="Cheque" Type="ExpenseManagerDBModel.Cheque" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseTransactionPaymentHistory">
+        <PropertyRef Name="ExpenseTransactionPaymentHistoryId" />
+      </Principal>
+      <Dependent Role="Cheque">
+        <PropertyRef Name="ExpenseTransactionPaymentHistoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransaction_Department">
+    <End Role="Department" Type="ExpenseManagerDBModel.Department" Multiplicity="1" />
+    <End Role="ExpenseTransaction" Type="ExpenseManagerDBModel.ExpenseTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="ExpenseTransaction">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransactionPayment_Department">
+    <End Role="Department" Type="ExpenseManagerDBModel.Department" Multiplicity="1" />
+    <End Role="ExpenseTransactionPayment" Type="ExpenseManagerDBModel.ExpenseTransactionPayment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="ExpenseTransactionPayment">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Unit_Department">
+    <End Role="Department" Type="ExpenseManagerDBModel.Department" Multiplicity="1" />
+    <End Role="Unit" Type="ExpenseManagerDBModel.Unit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="Unit">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseItem_ExpenseCategory">
+    <End Role="ExpenseCategory" Type="ExpenseManagerDBModel.ExpenseCategory" Multiplicity="1" />
+    <End Role="ExpenseItem" Type="ExpenseManagerDBModel.ExpenseItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseCategory">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Principal>
+      <Dependent Role="ExpenseItem">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionItem_ExpenseCategory">
+    <End Role="ExpenseCategory" Type="ExpenseManagerDBModel.ExpenseCategory" Multiplicity="1" />
+    <End Role="TransactionItem" Type="ExpenseManagerDBModel.TransactionItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseCategory">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Principal>
+      <Dependent Role="TransactionItem">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionItem_ExpenseItem">
+    <End Role="ExpenseItem" Type="ExpenseManagerDBModel.ExpenseItem" Multiplicity="1" />
+    <End Role="TransactionItem" Type="ExpenseManagerDBModel.TransactionItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseItem">
+        <PropertyRef Name="ExpenseItemId" />
+      </Principal>
+      <Dependent Role="TransactionItem">
+        <PropertyRef Name="ExpensenseItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransactionPayment_ExpenseTransaction">
+    <End Role="ExpenseTransaction" Type="ExpenseManagerDBModel.ExpenseTransaction" Multiplicity="1" />
+    <End Role="ExpenseTransactionPayment" Type="ExpenseManagerDBModel.ExpenseTransactionPayment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseTransaction">
+        <PropertyRef Name="ExpenseTransactionId" />
+      </Principal>
+      <Dependent Role="ExpenseTransactionPayment">
+        <PropertyRef Name="ExpenseTransactionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransactionPaymentHistory_ExpenseTransaction">
+    <End Role="ExpenseTransaction" Type="ExpenseManagerDBModel.ExpenseTransaction" Multiplicity="1" />
+    <End Role="ExpenseTransactionPaymentHistory" Type="ExpenseManagerDBModel.ExpenseTransactionPaymentHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseTransaction">
+        <PropertyRef Name="ExpenseTransactionId" />
+      </Principal>
+      <Dependent Role="ExpenseTransactionPaymentHistory">
+        <PropertyRef Name="ExpenseTransactionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionItem_ExpenseTransaction">
+    <End Role="ExpenseTransaction" Type="ExpenseManagerDBModel.ExpenseTransaction" Multiplicity="1" />
+    <End Role="TransactionItem" Type="ExpenseManagerDBModel.TransactionItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseTransaction">
+        <PropertyRef Name="ExpenseTransactionId" />
+      </Principal>
+      <Dependent Role="TransactionItem">
+        <PropertyRef Name="ExpenseTransactionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransactionPaymentHistory_ExpenseTransactionPayment">
+    <End Role="ExpenseTransactionPayment" Type="ExpenseManagerDBModel.ExpenseTransactionPayment" Multiplicity="1" />
+    <End Role="ExpenseTransactionPaymentHistory" Type="ExpenseManagerDBModel.ExpenseTransactionPaymentHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseTransactionPayment">
+        <PropertyRef Name="ExpenseTransactionPaymentId" />
+      </Principal>
+      <Dependent Role="ExpenseTransactionPaymentHistory">
+        <PropertyRef Name="ExpenseTransactionPaymentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseTransactionPaymentHistory_PaymentMode">
+    <End Role="PaymentMode" Type="ExpenseManagerDBModel.PaymentMode" Multiplicity="1" />
+    <End Role="ExpenseTransactionPaymentHistory" Type="ExpenseManagerDBModel.ExpenseTransactionPaymentHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentMode">
+        <PropertyRef Name="PaymentModeId" />
+      </Principal>
+      <Dependent Role="ExpenseTransactionPaymentHistory">
+        <PropertyRef Name="PaymentModeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionItem_ExpenseType">
+    <End Role="ExpenseType" Type="ExpenseManagerDBModel.ExpenseType" Multiplicity="1" />
+    <End Role="TransactionItem" Type="ExpenseManagerDBModel.TransactionItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseType">
+        <PropertyRef Name="ExpenseTypeId" />
+      </Principal>
+      <Dependent Role="TransactionItem">
+        <PropertyRef Name="ExpenseTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

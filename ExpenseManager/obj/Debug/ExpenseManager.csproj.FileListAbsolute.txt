@@ -1,0 +1,181 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\ExpenseManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\ExpenseManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\AjaxControlToolkit.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\AjaxMin.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\HtmlAgilityPack.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\kPortal.Common.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\kPortal.CoreUtilities.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\MySql.Data.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\MySql.Data.Entity.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\MySql.Web.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\bin\SmartWebEngines.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\AjaxControlToolkit.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\AjaxMin.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\HtmlAgilityPack.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\kPortal.Common.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\kPortal.CoreUtilities.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\MySql.Data.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\MySql.Data.Entity.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\MySql.Web.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\SmartWebEngines.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\AjaxControlToolkit.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\AjaxMin.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\HtmlAgilityPack.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\kPortal.Common.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\kPortal.CoreUtilities.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\MySql.Data.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\MySql.Data.Entity.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\MySql.Web.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\SmartWebEngines.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.csprojResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\CrystalDecisions.ReportSource.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\CrystalDecisions.Shared.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\AjaxControlToolkit.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\AjaxMin.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\HtmlAgilityPack.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\kPortal.Common.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\kPortal.CoreUtilities.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\MySql.Data.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\MySql.Data.Entity.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\MySql.Web.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\SmartWebEngines.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.csprojResolveAssemblyReference.cache
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\CrystalDecisions.ReportSource.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager\bin\CrystalDecisions.Shared.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\AjaxControlToolkit.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\AjaxMin.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\CrystalDecisions.ReportSource.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\CrystalDecisions.Shared.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\HtmlAgilityPack.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\kPortal.Common.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\kPortal.CoreUtilities.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\SmartWebEngines.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\XPLUG.WEBTOOLS.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.csprojResolveAssemblyReference.cache
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\ExpenseManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\ExpenseManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\AjaxControlToolkit.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\AjaxMin.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\CrystalDecisions.ReportSource.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\CrystalDecisions.Shared.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\HtmlAgilityPack.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\kPortal.Common.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\kPortal.CoreUtilities.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\MySql.Data.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\MySql.Data.Entity.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\MySql.Web.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\SmartWebEngines.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessService.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\bin\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.csprojResolveAssemblyReference.cache
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.csprojResolveAssemblyReference.cache
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\obj\Debug\ExpenseManager.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\ExpenseManager.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\ExpenseManager.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\AjaxControlToolkit.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\AjaxMin.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\HtmlAgilityPack.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\kPortal.Common.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\kPortal.CoreUtilities.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\SmartWebEngines.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessService.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\XPLUG.WEBTOOLS.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\ExpenseManager.EF.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessManager.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessObject.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessService.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\xPlug.BusinessObjectMapper.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager\bin\ExpenseManager.EF.pdb

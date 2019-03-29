@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="expensemanagerportaldbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="expensemanagerportaldbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="my_aspnet_applications" EntityType="expensemanagerportaldbModel.my_aspnet_applications" />
+    <EntitySet Name="my_aspnet_membership" EntityType="expensemanagerportaldbModel.my_aspnet_membership" />
+    <EntitySet Name="my_aspnet_profiles" EntityType="expensemanagerportaldbModel.my_aspnet_profiles" />
+    <EntitySet Name="my_aspnet_roles" EntityType="expensemanagerportaldbModel.my_aspnet_roles" />
+    <EntitySet Name="my_aspnet_sessioncleanup" EntityType="expensemanagerportaldbModel.my_aspnet_sessioncleanup" />
+    <EntitySet Name="my_aspnet_sessions" EntityType="expensemanagerportaldbModel.my_aspnet_sessions" />
+    <EntitySet Name="my_aspnet_users" EntityType="expensemanagerportaldbModel.my_aspnet_users" />
+    <EntitySet Name="my_aspnet_usersinroles" EntityType="expensemanagerportaldbModel.my_aspnet_usersinroles" />
+    <EntitySet Name="portalusers" EntityType="expensemanagerportaldbModel.portaluser" />
+    <EntitySet Name="sitemaps" EntityType="expensemanagerportaldbModel.sitemap" />
+  </EntityContainer>
+  <EntityType Name="my_aspnet_applications">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="description" MaxLength="256" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="my_aspnet_membership">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Type="Int32" Name="userId" Nullable="false" />
+    <Property Type="String" Name="Email" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Comment" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PasswordKey" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="PasswordFormat" />
+    <Property Type="String" Name="PasswordQuestion" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PasswordAnswer" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="IsApproved" />
+    <Property Type="DateTime" Name="LastActivityDate" />
+    <Property Type="DateTime" Name="LastLoginDate" />
+    <Property Type="DateTime" Name="LastPasswordChangedDate" />
+    <Property Type="DateTime" Name="CreationDate" />
+    <Property Type="Boolean" Name="IsLockedOut" />
+    <Property Type="DateTime" Name="LastLockedOutDate" />
+    <Property Type="Int64" Name="FailedPasswordAttemptCount" />
+    <Property Type="DateTime" Name="FailedPasswordAttemptWindowStart" />
+    <Property Type="Int64" Name="FailedPasswordAnswerAttemptCount" />
+    <Property Type="DateTime" Name="FailedPasswordAnswerAttemptWindowStart" />
+  </EntityType>
+  <EntityType Name="my_aspnet_profiles">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Type="Int32" Name="userId" Nullable="false" />
+    <Property Type="String" Name="valueindex" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="stringdata" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Type="Binary" Name="binarydata" MaxLength="Max" FixedLength="false" />
+    <Property Type="DateTime" Name="lastUpdatedDate" Nullable="false" />
+  </EntityType>
+  <EntityType Name="my_aspnet_roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="applicationId" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="my_aspnet_sessioncleanup">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Type="DateTime" Name="LastRun" Nullable="false" />
+    <Property Type="Int32" Name="IntervalMinutes" Nullable="false" />
+    <Property Type="Int32" Name="ApplicationId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="my_aspnet_sessions">
+    <Key>
+      <PropertyRef Name="SessionId" />
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Type="String" Name="SessionId" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ApplicationId" Nullable="false" />
+    <Property Type="DateTime" Name="Created" Nullable="false" />
+    <Property Type="DateTime" Name="Expires" Nullable="false" />
+    <Property Type="DateTime" Name="LockDate" Nullable="false" />
+    <Property Type="Int32" Name="LockId" Nullable="false" />
+    <Property Type="Int32" Name="Timeout" Nullable="false" />
+    <Property Type="Boolean" Name="Locked" Nullable="false" />
+    <Property Type="Binary" Name="SessionItems" MaxLength="Max" FixedLength="false" />
+    <Property Type="Int32" Name="Flags" Nullable="false" />
+  </EntityType>
+  <EntityType Name="my_aspnet_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="applicationId" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="isAnonymous" Nullable="false" />
+    <Property Type="DateTime" Name="lastActivityDate" />
+  </EntityType>
+  <EntityType Name="my_aspnet_usersinroles">
+    <Key>
+      <PropertyRef Name="userId" />
+      <PropertyRef Name="roleId" />
+    </Key>
+    <Property Type="Int32" Name="userId" Nullable="false" />
+    <Property Type="Int32" Name="roleId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="portaluser">
+    <Key>
+      <PropertyRef Name="PortalUserId" />
+    </Key>
+    <Property Type="Int64" Name="PortalUserId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OtherName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="SexId" Nullable="false" />
+    <Property Type="String" Name="MobileNumber" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Designation" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DateRegistered" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TimeRegistered" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Status" Nullable="false" />
+    <Property Type="Int32" Name="TestProviderId" />
+  </EntityType>
+  <EntityType Name="sitemap">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Description" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Url" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Roles" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Parent" />
+    <Property Type="Int32" Name="TabType" />
+    <Property Type="Int32" Name="TabOrder" Nullable="false" />
+    <Property Type="String" Name="DateCreated" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

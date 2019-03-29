@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="expensemanagerportaldbModelStoreContainer" CdmEntityContainer="expensemanagerportaldbEntities">
+    <EntitySetMapping Name="my_aspnet_applications">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_applications">
+        <MappingFragment StoreEntitySet="my_aspnet_applications">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my_aspnet_membership">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_membership">
+        <MappingFragment StoreEntitySet="my_aspnet_membership">
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="LastLockedOutDate" ColumnName="LastLockedOutDate" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="PasswordFormat" ColumnName="PasswordFormat" />
+          <ScalarProperty Name="PasswordKey" ColumnName="PasswordKey" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my_aspnet_profiles">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_profiles">
+        <MappingFragment StoreEntitySet="my_aspnet_profiles">
+          <ScalarProperty Name="lastUpdatedDate" ColumnName="lastUpdatedDate" />
+          <ScalarProperty Name="binarydata" ColumnName="binarydata" />
+          <ScalarProperty Name="stringdata" ColumnName="stringdata" />
+          <ScalarProperty Name="valueindex" ColumnName="valueindex" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my_aspnet_roles">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_roles">
+        <MappingFragment StoreEntitySet="my_aspnet_roles">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="applicationId" ColumnName="applicationId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my_aspnet_sessioncleanup">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_sessioncleanup">
+        <MappingFragment StoreEntitySet="my_aspnet_sessioncleanup">
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="IntervalMinutes" ColumnName="IntervalMinutes" />
+          <ScalarProperty Name="LastRun" ColumnName="LastRun" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my_aspnet_sessions">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_sessions">
+        <MappingFragment StoreEntitySet="my_aspnet_sessions">
+          <ScalarProperty Name="Flags" ColumnName="Flags" />
+          <ScalarProperty Name="SessionItems" ColumnName="SessionItems" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="Timeout" ColumnName="Timeout" />
+          <ScalarProperty Name="LockId" ColumnName="LockId" />
+          <ScalarProperty Name="LockDate" ColumnName="LockDate" />
+          <ScalarProperty Name="Expires" ColumnName="Expires" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="SessionId" ColumnName="SessionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my_aspnet_users">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_users">
+        <MappingFragment StoreEntitySet="my_aspnet_users">
+          <ScalarProperty Name="lastActivityDate" ColumnName="lastActivityDate" />
+          <ScalarProperty Name="isAnonymous" ColumnName="isAnonymous" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="applicationId" ColumnName="applicationId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="my_aspnet_usersinroles">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.my_aspnet_usersinroles">
+        <MappingFragment StoreEntitySet="my_aspnet_usersinroles">
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="portalusers">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.portaluser">
+        <MappingFragment StoreEntitySet="portaluser">
+          <ScalarProperty Name="TestProviderId" ColumnName="TestProviderId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="TimeRegistered" ColumnName="TimeRegistered" />
+          <ScalarProperty Name="DateRegistered" ColumnName="DateRegistered" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="SexId" ColumnName="SexId" />
+          <ScalarProperty Name="OtherName" ColumnName="OtherName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="PortalUserId" ColumnName="PortalUserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sitemaps">
+      <EntityTypeMapping TypeName="expensemanagerportaldbModel.sitemap">
+        <MappingFragment StoreEntitySet="sitemap">
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="TabOrder" ColumnName="TabOrder" />
+          <ScalarProperty Name="TabType" ColumnName="TabType" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Roles" ColumnName="Roles" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

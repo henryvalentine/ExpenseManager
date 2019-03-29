@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD8D4C2B-22FD-4509-ADAB-250F75CF7151}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>xPlug.BusinessManager</RootNamespace>
+    <AssemblyName>xPlug.BusinessManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XPLUG.WEBTOOLS">
+      <HintPath>..\ExpenseManager\dll\XPLUG.WEBTOOLS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASPBusinessManager\AccountsHeadManager.cs" />
+    <Compile Include="ASPBusinessManager\AssetCategoryManager.cs" />
+    <Compile Include="ASPBusinessManager\AssetTypeManager.cs" />
+    <Compile Include="ASPBusinessManager\BankManager.cs" />
+    <Compile Include="ASPBusinessManager\BeneficiaryManager.cs" />
+    <Compile Include="ASPBusinessManager\BeneficiaryTypeManager.cs" />
+    <Compile Include="ASPBusinessManager\ChequeManager.cs" />
+    <Compile Include="ASPBusinessManager\DepartmentManager.cs" />
+    <Compile Include="ASPBusinessManager\ExpenseCategoryManager.cs" />
+    <Compile Include="ASPBusinessManager\ExpenseItemManager.cs" />
+    <Compile Include="ASPBusinessManager\ExpenseTransactionManager.cs" />
+    <Compile Include="ASPBusinessManager\ExpenseTransactionPaymentHistoryManager.cs" />
+    <Compile Include="ASPBusinessManager\ExpenseTransactionPaymentManager.cs" />
+    <Compile Include="ASPBusinessManager\ExpenseTypeManager.cs" />
+    <Compile Include="ASPBusinessManager\FixedAssetManager.cs" />
+    <Compile Include="ASPBusinessManager\LiquidAssetManager.cs" />
+    <Compile Include="ASPBusinessManager\PaymentModeManager.cs" />
+    <Compile Include="ASPBusinessManager\PaymentVoucherNumberManager.cs" />
+    <Compile Include="ASPBusinessManager\StaffUserManager.cs" />
+    <Compile Include="ASPBusinessManager\TransactionItemManager.cs" />
+    <Compile Include="ASPBusinessManager\UnitManager.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedAccountsHeadManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedAssetCategoryManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedAssetTypeManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedBeneficiaryManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedBeneficiaryTypeManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedChequeManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedDepartmentManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedExpenseCategoryManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedExpenseItemManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedExpenseTransactionManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedExpenseTransactionPaymentHistoryManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedExpenseTransactionPaymentManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedExpenseTypeManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedFixedAssetManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedLiquidAssetManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedPaymentModeManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedStaffUserManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedTransactionItemManager.cs" />
+    <Compile Include="CustomizedASPBusinessManager\CustomizedUnitManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseManager.EF\ExpenseManager.EF.csproj">
+      <Project>{D80AE043-ECCC-4AB7-9125-032CB03EDF43}</Project>
+      <Name>ExpenseManager.EF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xPlug.BusinessObjectMapper\xPlug.BusinessObjectMapper.csproj">
+      <Project>{30BACFC3-DC2C-4D97-8A2B-3399E2544DD8}</Project>
+      <Name>xPlug.BusinessObjectMapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xPlug.BusinessObject\xPlug.BusinessObject.csproj">
+      <Project>{3D27AA7F-2F5E-4EAD-BF9E-AD271CC2DBE1}</Project>
+      <Name>xPlug.BusinessObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.core.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

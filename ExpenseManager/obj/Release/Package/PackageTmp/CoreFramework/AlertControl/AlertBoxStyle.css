@@ -1,0 +1,113 @@
+﻿ .MessageBoxPopupBackground
+{
+    filter: Alpha(Opacity=40);
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    background-color: #999999;
+    position: absolute;
+    z-index: 900000000001;
+    top: 0px;
+    left: 0px;
+}
+.popupHeader
+{
+    float: left;
+    padding: 5px ;
+    width: 420px;
+    font-family: tahoma;
+    font-weight: bold;
+    height: 25px;
+    text-decoration: none;
+    background: #959596;
+    /*background-image: url("Assets/body_tab_top.jpg");*/
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+}
+.popupHeader span
+{
+    color: #fff;
+    text-decoration: none;
+    line-height: 15px;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+}
+.popupHeader a
+{
+    color: #fff !important;
+    text-decoration: none !important;
+    line-height: 15px;
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+}
+.popup_button
+{
+    color: #f2dede !important;
+    font-family: arial, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none !important;
+    width: auto;
+    background: #b94a48;
+    /*
+background-image: url('Assets/button_bg.jpg');
+    background-repeat: repeat-x;
+    */ /*height: 24px;*/
+    line-height: 22px;
+    padding: 3px 15px 3px 15px;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+
+.popupHeader2
+{
+    float: left;
+    padding: 5px;
+    width: 420px;
+    font-family: tahoma;
+    font-weight: bold;
+    height: 25px;
+    text-decoration: none;
+    background: #959596;
+   /*background-image: url("Assets/body_tab_top2.jpg");*/ 
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+}
+
+.popupHeader2 span
+{
+    color: #fff;
+    text-decoration: none;
+    line-height: 15px;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+}
+.popupHeader2 a
+{
+    color: #fff !important;
+    text-decoration: none !important;
+    line-height: 15px;
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+}
+.popup_button2
+{
+    color: #dff0d8 !important;
+    font-family: arial, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none !important;
+    width: auto;
+    background: #468847;
+    /*background-image: url('Assets/button_bg2.jpg');
+    background-repeat: repeat-x;*/ /*height: 24px;*/
+    line-height: 22px;
+    padding: 3px 15px 3px 15px;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}

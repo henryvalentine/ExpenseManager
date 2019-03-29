@@ -1,0 +1,351 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background: none;
+	text-align: justify;
+	font: 9px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+textarea {
+	padding: 3px;
+	font: normal 1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+input {
+	padding: 1px;
+	font: normal 9pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h1, h1 a, h2, h2 a, h3, h3 a {
+	margin: 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #AAFF00;
+}
+
+h1 {
+	letter-spacing: -3px;
+	font-size: 2.6em;
+}
+
+h2 {
+	letter-spacing: -2px;
+	font-size: 2em;
+}
+
+h3 {
+	margin-bottom: 2em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+h5 {
+	margin-bottom: 0px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+p, ol, ul {
+	margin: 0 0 2em 0;
+	line-height: 200%;
+}
+
+blockquote {
+	margin: 0 0 0 1.5em;
+	padding-left: 1em;
+	border-left: 5px solid #DDDDDD;
+}
+
+a {
+	color: #999;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #666;
+}
+a:visited{ color: #666;}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 8px 20px 0px 0px;
+	border: 2px solid #434343; 
+}
+
+
+/* Header */
+
+#wrapper {
+	background-image: url('../../images/Nav/PlainBG3.png');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+#header {
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	
+}
+.NavBg {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 9pt;
+	font-weight: normal;
+	background-image: url('../../images/Nav/NavBg.png');
+	background-repeat: repeat-x;
+	background-position:  center;
+	border:0; padding: 1px 0px 1px 0px;
+	CURSOR: hand; height:22px;
+}
+.MainBg {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 9pt;
+	font-weight: normal; color:White;
+	background: none;
+	border:0; padding:  0px 1px 0px 1px; margin-left: 10px;
+	CURSOR:hand; height:22px;
+}
+
+.MainBgSelected{ color: #3d5;
+    font-weight: bold;}
+    
+
+ 
+.NavBgAlt {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 9pt;
+	font-weight: normal;
+	background-image: url('../../images/Nav/NavBgAlt.png');
+	background-repeat: repeat-x;
+	background-position:  center;
+	border:0; padding:  1px 10px 1px 0px;
+	CURSOR: hand; height:22px;
+}
+.dynamicHover {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 8pt;
+	font-weight: normal;
+	background-color: #363D54; color:White;
+	border:0; padding: 3px 3px 3px 3px;
+	CURSOR: hand;
+}
+.dynamicMenu {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 9pt;
+	font-weight: normal;
+	background: none; color:White;
+	padding: 1px 1px 1px 1px;
+	CURSOR:hand; width:180px;
+}
+.dynamicSelected {
+	font-family: Arial, Trebuchet MS, Tw Cen MT, Verdana, Tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	background: none; padding: 3px 3px 3px 3px;
+	CURSOR: pointer; width:150px;
+}
+.dynamicItem {
+	font-family: Arial, Trebuchet MS, Tw Cen MT, Verdana, Tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	background-image: url('../../images/Nav/subMenu.png');
+	background-repeat: repeat-x; color:White; padding: 3px 3px 3px 3px;
+	background-position: top; 
+	CURSOR: pointer; width:180px;
+}
+.sideInfo {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 9pt;
+	font-weight: normal;
+	background-image: url('../../images/Nav/side1.png');
+	background-repeat: repeat-x;
+	background-position:  center;
+	border:0;
+}
+#MasterContainer
+{
+  border: solid 1px black;
+}
+
+#BannerContainer
+{
+  padding: 5px 5px 5px 5px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.TabMenuContainer
+{
+  border-top: solid 1px black;
+}
+
+.TabMenuItem
+{
+   background-image: url('../../images/Nav/NavBg.png');
+   background-repeat : repeat-x;
+  text-align:center;
+  font-size: 10pt;
+  border: solid 1px black;
+  border-left: none;
+  padding: 3px 3px 3px 3px;
+}
+.TabMenuItemSelected
+{
+background-color: White;
+text-align:center;
+font-size: 10pt;
+border-right: solid 1px black;
+border-bottom: none;
+border-top: none;
+border-left: none;
+padding: 5px 3px 5px 3px;
+}
+.TabMenuItemHover
+{
+  color:Black;
+  font-weight: bold;
+}
+.SiteStaticMenu
+{
+  margin: -1px 0px 0px 0px;
+  background-color: Black;
+}
+.TabMenuSpacer
+{
+  background-color: #222222;
+  padding: 5px 5px 5px 5px;
+}
+
+#SiteContent
+{
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+  width: 100%; 
+}
+
+.SiteContentSpacer
+{
+  height: 200px;
+  visibility: hidden;
+}#FooterContainer
+{
+  font-size: xx-small;
+  border-top: solid 1px black;
+}
+
+.mLogin
+{
+	background-image: url('../../Images/loginBG.png');
+	background-repeat: no-repeat;
+	background-position:  center center;
+	height:438px; width:639px;
+	}
+	
+.contentTD {
+	 PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: 11px;  PADDING-TOP: 1px;
+}
+.fband {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 8pt;
+	background-image: url('../../images/bck3.jpg');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	border: 1px solid #51A2A2;
+	}
+.Lband {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 9pt;
+	font-weight: normal;
+	border: 0px solid #51A2A2;
+	CURSOR: pointer; height:22px;
+}
+.msMenu
+{ color:Gray;
+  width:90%;
+  height:1px;
+ }
+ 
+ .free 
+ { FONT-WEIGHT:bolder; 
+	FONT-SIZE: 10px; 
+	COLOR: #cc0000; 
+	LINE-HEIGHT: 14px;
+	FONT-FAMILY: arial,helvetica,sanserif; 
+	WHITE-SPACE: nowrap 
+	}
+.ltext {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 8pt;
+	color: #006600;
+}
+.smtext {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 8pt;
+	color:#000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:Gray;
+	CURSOR: pointer;
+}
+.smtextLOff {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 8pt;
+	CURSOR: hand; font-weight:bold;
+	color: #000;
+}
+.userLogin {
+	font-family: Trebuchet MS, Tw Cen MT, Verdana, Tahoma, Arial;
+	font-size: 9pt;
+	color:#fff;
+	font-weight:bold;
+}
+.userLogin2 {
+	font-family: Arial, Trebuchet MS, Tw Cen MT, Verdana, Tahoma;
+	font-size: 8pt; font-style:italic;
+	color:#fff;
+	font-weight:bold;
+}
+.chngPassword {
+	font-family:  Trebuchet MS, Arial, Tw Cen MT, Verdana, Tahoma;
+	font-size: 9pt; 
+	padding: 2px 2px 2px 2px; 
+	color:#000033;
+	font-weight:bold;
+}
+.contentBg {
+	 background-color:#88B7D0; background-repeat:repeat; background-position:top;
+}
+.contentSub
+{
+	BORDER-BOTTOM: #333366 1px solid; PADDING-BOTTOM: 3px; MARGIN: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #666; FONT-SIZE: 14px; font-family:Trebuchet MS, Tw Cen MT, Tahoma, Arial; FONT-WEIGHT: bold;
+   
+}
+#contentmgr
+{
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #666666; FONT-SIZE: 10px; 
+	}
+
+.contentSubPlain
+{
+	 PADDING-BOTTOM: 3px; MARGIN: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #cccccc;  font-family:Trebuchet MS, Tw Cen MT, Tahoma, Arial ; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 3px;
+	}
+.defaultTB{border-left: #d42e12 1px solid;}
+.countTB{border: Orange 1px solid;}
+.modalBackground{background-color:Gray;filter:alpha(opacity=70);opacity:0.7;}

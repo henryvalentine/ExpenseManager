@@ -1,0 +1,24 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\obj\Release\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\obj\Release\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObjectMapper\obj\Release\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObjectMapper.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\bin\Release\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\obj\Release\xPlug.BusinessObjectMapper.csprojResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\obj\Release\xPlug.BusinessObjectMapper.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObjectMapper\obj\Release\xPlug.BusinessObjectMapper.pdb

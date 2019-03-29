@@ -1,0 +1,15 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Release\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Release\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\obj\Release\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\obj\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\obj\Release\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Release\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Release\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\obj\Release\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\obj\Release\xPlug.BusinessObject.pdb

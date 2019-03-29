@@ -1,0 +1,59 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll.config
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll.config
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll.config
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll.config
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.xml
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll.config
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\XPLUG.WEBTOOLS.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.xml
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll.config
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\bin\Debug\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.xml
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll.config
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\bin\Debug\ExpenseManager.EF.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\bin\Debug\XPLUG.WEBTOOLS.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\ExpenseManager.EF\obj\Debug\ExpenseManager.EF.csprojResolveAssemblyReference.cache

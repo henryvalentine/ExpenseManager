@@ -1,0 +1,51 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.xml
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.pdb
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\XPLUG.WEBTOOLS.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.xml
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.dll
+D:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.pdb
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessObject\bin\Debug\XPLUG.WEBTOOLS.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.xml
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.dll
+F:\PROJECTS\WEB\ASP\LOCAL\All New\Lates\ExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessObject\bin\Debug\xPlug.BusinessObject.pdb
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessObject\bin\Debug\XPLUG.WEBTOOLS.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessObject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.dll
+C:\Users\JACK V\Documents\AppHost\PROJECTS\WEB\ASP\LOCAL\All New\LatestExpenseManager\xPlug.BusinessObject\obj\Debug\xPlug.BusinessObject.pdb

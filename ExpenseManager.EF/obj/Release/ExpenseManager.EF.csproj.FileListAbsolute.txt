@@ -1,0 +1,17 @@
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Release\ExpenseManager.EF.dll.config
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Release\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\bin\Release\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\obj\Release\ResolveAssemblyReference.cache
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\obj\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\ExpenseManager\ExpenseManager.EF\obj\Release\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Release\ExpenseManager.EF.dll.config
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Release\ExpenseManager.EF.pdb
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Release\XPLUG.WEBTOOLS.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\bin\Release\Newtonsoft.Json.xml
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\obj\Release\ExpenseManager.EF.dll
+E:\PROJECTS\WEB\ASP\LOCAL\All New\ExpenseManager\ExpenseManager.EF\obj\Release\ExpenseManager.EF.pdb

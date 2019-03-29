@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExpenseManagerDBModelStoreContainer" CdmEntityContainer="ExpenseManagerDBEntities">
+    <EntitySetMapping Name="AccountsHeads">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.AccountsHead">
+        <MappingFragment StoreEntitySet="AccountsHead">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ExpenseCategoryId" ColumnName="ExpenseCategoryId" />
+          <ScalarProperty Name="AccountsHeadId" ColumnName="AccountsHeadId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AssetCategories">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.AssetCategory">
+        <MappingFragment StoreEntitySet="AssetCategory">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AssetCategoryId" ColumnName="AssetCategoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AssetTypes">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.AssetType">
+        <MappingFragment StoreEntitySet="AssetType">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AssetCategoryId" ColumnName="AssetCategoryId" />
+          <ScalarProperty Name="AssetTypeId" ColumnName="AssetTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Beneficiaries">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.Beneficiary">
+        <MappingFragment StoreEntitySet="Beneficiary">
+          <ScalarProperty Name="BeneficiaryTypeId" ColumnName="BeneficiaryTypeId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="TimeRegistered" ColumnName="TimeRegistered" />
+          <ScalarProperty Name="DateRegistered" ColumnName="DateRegistered" />
+          <ScalarProperty Name="GSMNO1" ColumnName="GSMNO1" />
+          <ScalarProperty Name="GSMNO2" ColumnName="GSMNO2" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="BeneficiaryId" ColumnName="BeneficiaryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BeneficiaryTypes">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.BeneficiaryType">
+        <MappingFragment StoreEntitySet="BeneficiaryType">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BeneficiaryTypeId" ColumnName="BeneficiaryTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseCategories">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.ExpenseCategory">
+        <MappingFragment StoreEntitySet="ExpenseCategory">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ExpenseCategoryId" ColumnName="ExpenseCategoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseItems">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.ExpenseItem">
+        <MappingFragment StoreEntitySet="ExpenseItem">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="AccountsHeadId" ColumnName="AccountsHeadId" />
+          <ScalarProperty Name="ExpenseCategoryId" ColumnName="ExpenseCategoryId" />
+          <ScalarProperty Name="ExpenseItemId" ColumnName="ExpenseItemId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseTypes">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.ExpenseType">
+        <MappingFragment StoreEntitySet="ExpenseType">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ExpenseTypeId" ColumnName="ExpenseTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FixedAssets">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.FixedAsset">
+        <MappingFragment StoreEntitySet="FixedAsset">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AssetCategoryId" ColumnName="AssetCategoryId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ScannedReceipt" ColumnName="ScannedReceipt" />
+          <ScalarProperty Name="DatePurchased" ColumnName="DatePurchased" />
+          <ScalarProperty Name="CostOfTransportationAndInstallation" ColumnName="CostOfTransportationAndInstallation" />
+          <ScalarProperty Name="CostOfPurchase" ColumnName="CostOfPurchase" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AssetTypeId" ColumnName="AssetTypeId" />
+          <ScalarProperty Name="FixedAssetId" ColumnName="FixedAssetId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LiquidAssets">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.LiquidAsset">
+        <MappingFragment StoreEntitySet="LiquidAsset">
+          <ScalarProperty Name="AssetCategoryId" ColumnName="AssetCategoryId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AssetTypeId" ColumnName="AssetTypeId" />
+          <ScalarProperty Name="LiquidAssetId" ColumnName="LiquidAssetId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentModes">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.PaymentMode">
+        <MappingFragment StoreEntitySet="PaymentMode">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PaymentModeId" ColumnName="PaymentModeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StaffUsers">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.StaffUser">
+        <MappingFragment StoreEntitySet="StaffUser">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="PortalUserId" ColumnName="PortalUserId" />
+          <ScalarProperty Name="BeneficiaryId" ColumnName="BeneficiaryId" />
+          <ScalarProperty Name="StaffUserId" ColumnName="StaffUserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Units">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.Unit">
+        <MappingFragment StoreEntitySet="Unit">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseTransactionPayments">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.ExpenseTransactionPayment">
+        <MappingFragment StoreEntitySet="ExpenseTransactionPayment">
+          <ScalarProperty Name="BeneficiaryId" ColumnName="BeneficiaryId" />
+          <ScalarProperty Name="AmountPaid" ColumnName="AmountPaid" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LastPaymentTime" ColumnName="LastPaymentTime" />
+          <ScalarProperty Name="LastPaymentDate" ColumnName="LastPaymentDate" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="TotalAmountPayable" ColumnName="TotalAmountPayable" />
+          <ScalarProperty Name="ExpenseTransactionId" ColumnName="ExpenseTransactionId" />
+          <ScalarProperty Name="ExpenseTransactionPaymentId" ColumnName="ExpenseTransactionPaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Banks">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.Bank">
+        <MappingFragment StoreEntitySet="Bank">
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cheques">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.Cheque">
+        <MappingFragment StoreEntitySet="Cheque">
+          <ScalarProperty Name="ScannedCopy" ColumnName="ScannedCopy" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+          <ScalarProperty Name="ExpenseTransactionPaymentHistoryId" ColumnName="ExpenseTransactionPaymentHistoryId" />
+          <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="ChequePaymentId" ColumnName="ChequePaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseTransactionPaymentHistories">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.ExpenseTransactionPaymentHistory">
+        <MappingFragment StoreEntitySet="ExpenseTransactionPaymentHistory">
+          <ScalarProperty Name="BeneficiaryId" ColumnName="BeneficiaryId" />
+          <ScalarProperty Name="PaymentModeId" ColumnName="PaymentModeId" />
+          <ScalarProperty Name="ExpenseTransactionPaymentId" ColumnName="ExpenseTransactionPaymentId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="PaidById" ColumnName="PaidById" />
+          <ScalarProperty Name="PaymentTime" ColumnName="PaymentTime" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="AmountPaid" ColumnName="AmountPaid" />
+          <ScalarProperty Name="ExpenseTransactionId" ColumnName="ExpenseTransactionId" />
+          <ScalarProperty Name="ExpenseTransactionPaymentHistoryId" ColumnName="ExpenseTransactionPaymentHistoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentVoucherNumbers">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.PaymentVoucherNumber">
+        <MappingFragment StoreEntitySet="PaymentVoucherNumber">
+          <ScalarProperty Name="DateSubmitted" ColumnName="DateSubmitted" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="TransactionTotalAmount" ColumnName="TransactionTotalAmount" />
+          <ScalarProperty Name="TransactionId" ColumnName="TransactionId" />
+          <ScalarProperty Name="PaymentVoucherNumberId" ColumnName="PaymentVoucherNumberId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseTransactions">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.ExpenseTransaction">
+        <MappingFragment StoreEntitySet="ExpenseTransaction">
+          <ScalarProperty Name="ApproverComment" ColumnName="ApproverComment" />
+          <ScalarProperty Name="TotalApprovedAmount" ColumnName="TotalApprovedAmount" />
+          <ScalarProperty Name="TimeApproved" ColumnName="TimeApproved" />
+          <ScalarProperty Name="DateApproved" ColumnName="DateApproved" />
+          <ScalarProperty Name="ApproverId" ColumnName="ApproverId" />
+          <ScalarProperty Name="TotalTransactionAmount" ColumnName="TotalTransactionAmount" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TransactionTime" ColumnName="TransactionTime" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="RegisteredById" ColumnName="RegisteredById" />
+          <ScalarProperty Name="BeneficiaryTypeId" ColumnName="BeneficiaryTypeId" />
+          <ScalarProperty Name="BeneficiaryId" ColumnName="BeneficiaryId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ExpenseTitle" ColumnName="ExpenseTitle" />
+          <ScalarProperty Name="ExpenseTransactionId" ColumnName="ExpenseTransactionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionItems">
+      <EntityTypeMapping TypeName="ExpenseManagerDBModel.TransactionItem">
+        <MappingFragment StoreEntitySet="TransactionItem">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ApprovedTotalPrice" ColumnName="ApprovedTotalPrice" />
+          <ScalarProperty Name="ApprovedUnitPrice" ColumnName="ApprovedUnitPrice" />
+          <ScalarProperty Name="ApprovedQuantity" ColumnName="ApprovedQuantity" />
+          <ScalarProperty Name="ExpenseTypeId" ColumnName="ExpenseTypeId" />
+          <ScalarProperty Name="ExpenseCategoryId" ColumnName="ExpenseCategoryId" />
+          <ScalarProperty Name="ExpenseTransactionId" ColumnName="ExpenseTransactionId" />
+          <ScalarProperty Name="RequestedUnitPrice" ColumnName="RequestedUnitPrice" />
+          <ScalarProperty Name="RequestedQuantity" ColumnName="RequestedQuantity" />
+          <ScalarProperty Name="ExpensenseItemId" ColumnName="ExpensenseItemId" />
+          <ScalarProperty Name="TransactionItemId" ColumnName="TransactionItemId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
